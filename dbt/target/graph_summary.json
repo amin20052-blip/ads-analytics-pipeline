@@ -1,0 +1,1 @@
+{"_invocation_id": "aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2", "linked": {"0": {"name": "model.ozon_ads_analytics.stg_speed_metrics", "type": "model", "succ": [1]}, "1": {"name": "model.ozon_ads_analytics.speed_metrics_daily", "type": "model"}, "2": {"name": "model.ozon_ads_analytics.asset_ctr_positive", "type": "model"}}}

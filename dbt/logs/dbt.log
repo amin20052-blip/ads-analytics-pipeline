@@ -1,0 +1,2150 @@
+[0m22:45:15.927638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10af2a160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c406490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c4067c0>]}
+
+
+============================== 22:45:15.930013 | 69ac35a8-5fa7-4610-b595-4728cfa91996 ==============================
+[0m22:45:15.930013 [info ] [MainThread]: Running with dbt=1.10.23
+[0m22:45:15.930244 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'invocation_command': 'dbt run --profiles-dir .', 'quiet': 'False', 'profiles_dir': '.', 'write_json': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'printer_width': '80', 'empty': 'False', 'partial_parse': 'True', 'target_path': 'None', 'version_check': 'True', 'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'log_format': 'default', 'log_cache_events': 'False', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'introspect': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'cache_selected_only': 'False', 'warn_error': 'None'}
+[0m22:45:15.930397 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m22:45:15.930565 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '69ac35a8-5fa7-4610-b595-4728cfa91996', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10af2a160>]}
+[0m22:45:15.931898 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'ozon_ads_analytics'
+[0m22:45:15.933363 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.045451123, "process_in_blocks": "0", "process_kernel_time": 0.08501, "process_mem_max_rss": "119996416", "process_out_blocks": "0", "process_user_time": 1.03273}
+[0m22:45:15.933552 [debug] [MainThread]: Command `dbt run` failed at 22:45:15.933508 after 0.05 seconds
+[0m22:45:15.933689 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10af2a160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c24d6d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bc59e50>]}
+[0m22:45:15.933823 [debug] [MainThread]: Flushing usage events
+[0m22:45:16.820610 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:48:39.508255 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095d4d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aab5c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aab5910>]}
+
+
+============================== 22:48:39.510715 | 9d1a8748-469c-4972-b787-5c5ade2c1c46 ==============================
+[0m22:48:39.510715 [info ] [MainThread]: Running with dbt=1.10.23
+[0m22:48:39.510953 [debug] [MainThread]: running dbt with arguments {'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'target_path': 'None', 'profiles_dir': '.', 'quiet': 'False', 'cache_selected_only': 'False', 'empty': 'False', 'no_print': 'None', 'introspect': 'True', 'write_json': 'True', 'version_check': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --profiles-dir .', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'warn_error': 'None', 'static_parser': 'True', 'use_colors': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'debug': 'False', 'partial_parse': 'True'}
+[0m22:48:39.511106 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m22:48:39.511246 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '9d1a8748-469c-4972-b787-5c5ade2c1c46', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095d4d90>]}
+[0m22:48:39.512571 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Could not find profile named 'ozon_ads_analytics'
+[0m22:48:39.513910 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.039981, "process_in_blocks": "0", "process_kernel_time": 0.129032, "process_mem_max_rss": "120258560", "process_out_blocks": "0", "process_user_time": 1.025402}
+[0m22:48:39.514117 [debug] [MainThread]: Command `dbt run` failed at 22:48:39.514073 after 0.04 seconds
+[0m22:48:39.514265 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1095d4d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10aa99640>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a3837c0>]}
+[0m22:48:39.514411 [debug] [MainThread]: Flushing usage events
+[0m22:48:40.300933 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:48:54.325512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b347c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c829af0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8297c0>]}
+
+
+============================== 22:48:54.327587 | 00971cef-a0ae-424c-bf87-1a7e48994ec8 ==============================
+[0m22:48:54.327587 [info ] [MainThread]: Running with dbt=1.10.23
+[0m22:48:54.327823 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt run --profiles-dir .', 'log_cache_events': 'False', 'profiles_dir': '.', 'static_parser': 'True', 'version_check': 'True', 'cache_selected_only': 'False', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'no_print': 'None', 'write_json': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'printer_width': '80', 'warn_error': 'None', 'debug': 'False', 'quiet': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'introspect': 'True', 'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'log_format': 'default'}
+[0m22:48:54.327969 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m22:48:54.328095 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '00971cef-a0ae-424c-bf87-1a7e48994ec8', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b347c10>]}
+[0m22:48:54.329879 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m22:48:54.330079 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "ozon_ads_analytics", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+[0m22:48:54.331121 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.035302833, "process_in_blocks": "0", "process_kernel_time": 0.085257, "process_mem_max_rss": "120307712", "process_out_blocks": "0", "process_user_time": 1.077937}
+[0m22:48:54.331294 [debug] [MainThread]: Command `dbt run` failed at 22:48:54.331254 after 0.04 seconds
+[0m22:48:54.331422 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b347c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c0fc2e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c0fc040>]}
+[0m22:48:54.331550 [debug] [MainThread]: Flushing usage events
+[0m22:48:54.872266 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:09:33.836042 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092d6070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a7b2340>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a7b2670>]}
+
+
+============================== 23:09:33.838423 | 8aa54944-d4fc-4962-90a7-36c9d518d83c ==============================
+[0m23:09:33.838423 [info ] [MainThread]: Running with dbt=1.10.23
+[0m23:09:33.838669 [debug] [MainThread]: running dbt with arguments {'log_cache_events': 'False', 'cache_selected_only': 'False', 'use_colors': 'True', 'static_parser': 'True', 'quiet': 'False', 'log_format': 'default', 'fail_fast': 'False', 'no_print': 'None', 'write_json': 'True', 'printer_width': '80', 'invocation_command': 'dbt run --profiles-dir .', 'introspect': 'True', 'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'indirect_selection': 'eager', 'profiles_dir': '.', 'empty': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_experimental_parser': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'version_check': 'True', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'debug': 'False'}
+[0m23:09:33.838826 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m23:09:33.838956 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '8aa54944-d4fc-4962-90a7-36c9d518d83c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092d6070>]}
+[0m23:09:35.411953 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Credentials in profile "ozon_ads_analytics", target "dev" invalid: 'database' is a required property
+[0m23:09:35.414446 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 1.6127274, "process_in_blocks": "0", "process_kernel_time": 0.119057, "process_mem_max_rss": "123928576", "process_out_blocks": "0", "process_user_time": 1.051266}
+[0m23:09:35.414743 [debug] [MainThread]: Command `dbt run` failed at 23:09:35.414681 after 1.61 seconds
+[0m23:09:35.414962 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1092d6070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a7274f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ac702e0>]}
+[0m23:09:35.415811 [debug] [MainThread]: Flushing usage events
+[0m23:09:36.110197 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:11:21.374492 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cbb4670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e09e130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e09e460>]}
+
+
+============================== 23:11:21.376617 | 39322dbf-3fb0-4ab9-a7a8-4ca502e860e1 ==============================
+[0m23:11:21.376617 [info ] [MainThread]: Running with dbt=1.10.23
+[0m23:11:21.376861 [debug] [MainThread]: running dbt with arguments {'debug': 'False', 'profiles_dir': '.', 'empty': 'False', 'quiet': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'warn_error': 'None', 'version_check': 'True', 'printer_width': '80', 'use_experimental_parser': 'False', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'log_cache_events': 'False', 'log_format': 'default', 'cache_selected_only': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt run --profiles-dir .', 'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'fail_fast': 'False', 'target_path': 'None', 'indirect_selection': 'eager', 'write_json': 'True', 'static_parser': 'True'}
+[0m23:11:21.377011 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m23:11:21.377140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '39322dbf-3fb0-4ab9-a7a8-4ca502e860e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cbb4670>]}
+[0m23:11:21.463935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '39322dbf-3fb0-4ab9-a7a8-4ca502e860e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b467820>]}
+[0m23:11:21.486159 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '39322dbf-3fb0-4ab9-a7a8-4ca502e860e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e07c4f0>]}
+[0m23:11:21.486660 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m23:11:21.536322 [debug] [MainThread]: checksum: 2b1352ea083ab2415ad0dbf54db2d1ac6054af1cb939f9d756e37438b9e9a7cf, vars: {}, profile: , target: , version: 1.10.23
+[0m23:11:21.536668 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:11:21.536829 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '39322dbf-3fb0-4ab9-a7a8-4ca502e860e1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e82ffa0>]}
+[0m23:11:21.900370 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.ozon_ads_analytics.ads_metrics_hourly' (models/marts/ads_metrics_hourly.sql) depends on a node named 'stg_raw_events' which was not found
+[0m23:11:21.901927 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.5611251, "process_in_blocks": "0", "process_kernel_time": 0.168804, "process_mem_max_rss": "136478720", "process_out_blocks": "0", "process_user_time": 1.474218}
+[0m23:11:21.902097 [debug] [MainThread]: Command `dbt run` failed at 23:11:21.902061 after 0.56 seconds
+[0m23:11:21.902243 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cbb4670>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ef94be0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f10e820>]}
+[0m23:11:21.902388 [debug] [MainThread]: Flushing usage events
+[0m23:11:22.649980 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:27:50.663112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f0db80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a3ede50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a3edbe0>]}
+
+
+============================== 23:27:50.665427 | c003c524-ef8c-4835-a6a0-2c91c41a89be ==============================
+[0m23:27:50.665427 [info ] [MainThread]: Running with dbt=1.10.23
+[0m23:27:50.665666 [debug] [MainThread]: running dbt with arguments {'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'static_parser': 'True', 'use_colors': 'True', 'partial_parse': 'True', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'log_cache_events': 'False', 'cache_selected_only': 'False', 'target_path': 'None', 'version_check': 'True', 'warn_error': 'None', 'introspect': 'True', 'invocation_command': 'dbt run --profiles-dir .', 'fail_fast': 'False', 'profiles_dir': '.', 'quiet': 'False', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'write_json': 'True', 'empty': 'False', 'log_format': 'default', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None'}
+[0m23:27:50.665815 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m23:27:50.665953 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': 'c003c524-ef8c-4835-a6a0-2c91c41a89be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f0db80>]}
+[0m23:27:50.754940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c003c524-ef8c-4835-a6a0-2c91c41a89be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a38d9d0>]}
+[0m23:27:50.777091 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c003c524-ef8c-4835-a6a0-2c91c41a89be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a7e83d0>]}
+[0m23:27:50.777613 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m23:27:50.824689 [debug] [MainThread]: checksum: 2b1352ea083ab2415ad0dbf54db2d1ac6054af1cb939f9d756e37438b9e9a7cf, vars: {}, profile: , target: , version: 1.10.23
+[0m23:27:50.825028 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:27:50.825190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c003c524-ef8c-4835-a6a0-2c91c41a89be', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ab9b6d0>]}
+[0m23:27:51.189545 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.ozon_ads_analytics.ads_metrics_hourly' (models/marts/ads_metrics_hourly.sql) depends on a node named 'stg_speed_events' which was not found
+[0m23:27:51.191171 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.560391, "process_in_blocks": "0", "process_kernel_time": 0.173918, "process_mem_max_rss": "136396800", "process_out_blocks": "0", "process_user_time": 1.479173}
+[0m23:27:51.191344 [debug] [MainThread]: Command `dbt run` failed at 23:27:51.191310 after 0.56 seconds
+[0m23:27:51.191488 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f0db80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b471580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b4710d0>]}
+[0m23:27:51.191629 [debug] [MainThread]: Flushing usage events
+[0m23:27:51.898544 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:28:13.430552 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce8efa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e373550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e373880>]}
+
+
+============================== 23:28:13.432603 | f6a9eed5-ef0b-40a2-8f0d-355d80a6ff33 ==============================
+[0m23:28:13.432603 [info ] [MainThread]: Running with dbt=1.10.23
+[0m23:28:13.432852 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'quiet': 'False', 'invocation_command': 'dbt run --profiles-dir .', 'write_json': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'profiles_dir': '.', 'cache_selected_only': 'False', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'empty': 'False', 'log_format': 'default', 'warn_error': 'None', 'partial_parse': 'True', 'printer_width': '80', 'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'fail_fast': 'False', 'introspect': 'True', 'indirect_selection': 'eager', 'no_print': 'None'}
+[0m23:28:13.433007 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m23:28:13.433145 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': 'f6a9eed5-ef0b-40a2-8f0d-355d80a6ff33', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce8efa0>]}
+[0m23:28:13.508838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f6a9eed5-ef0b-40a2-8f0d-355d80a6ff33', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e85bbb0>]}
+[0m23:28:13.530673 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f6a9eed5-ef0b-40a2-8f0d-355d80a6ff33', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e2d6f10>]}
+[0m23:28:13.531161 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m23:28:13.577035 [debug] [MainThread]: checksum: 2b1352ea083ab2415ad0dbf54db2d1ac6054af1cb939f9d756e37438b9e9a7cf, vars: {}, profile: , target: , version: 1.10.23
+[0m23:28:13.577357 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m23:28:13.577511 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f6a9eed5-ef0b-40a2-8f0d-355d80a6ff33', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10eadf3a0>]}
+[0m23:28:13.963290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f6a9eed5-ef0b-40a2-8f0d-355d80a6ff33', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f40b130>]}
+[0m23:28:13.988481 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m23:28:13.989434 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m23:28:13.998512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f6a9eed5-ef0b-40a2-8f0d-355d80a6ff33', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f4ab610>]}
+[0m23:28:13.998702 [info ] [MainThread]: Found 4 models, 434 macros
+[0m23:28:13.998846 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f6a9eed5-ef0b-40a2-8f0d-355d80a6ff33', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f4641c0>]}
+[0m23:28:13.999482 [info ] [MainThread]: 
+[0m23:28:13.999615 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:28:13.999723 [info ] [MainThread]: 
+[0m23:28:13.999910 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m23:28:14.001511 [debug] [ThreadPool]: Acquiring new postgres connection 'list_project_ads_db'
+[0m23:28:14.034250 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db"
+[0m23:28:14.034437 [debug] [ThreadPool]: On list_project_ads_db: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:28:14.034549 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:28:14.157015 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.122 seconds
+[0m23:28:14.157662 [debug] [ThreadPool]: On list_project_ads_db: Close
+[0m23:28:14.158283 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_project_ads_db, now list_project_ads_db_public)
+[0m23:28:14.161109 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m23:28:14.161253 [debug] [ThreadPool]: On list_project_ads_db_public: BEGIN
+[0m23:28:14.161368 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:28:14.169765 [debug] [ThreadPool]: SQL status: BEGIN in 0.008 seconds
+[0m23:28:14.169933 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m23:28:14.170083 [debug] [ThreadPool]: On list_project_ads_db_public: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db_public"} */
+select
+      'project_ads_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m23:28:14.179618 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.009 seconds
+[0m23:28:14.180146 [debug] [ThreadPool]: On list_project_ads_db_public: ROLLBACK
+[0m23:28:14.180390 [debug] [ThreadPool]: On list_project_ads_db_public: Close
+[0m23:28:14.182496 [debug] [MainThread]: Using postgres connection "master"
+[0m23:28:14.182670 [debug] [MainThread]: On master: BEGIN
+[0m23:28:14.182796 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:28:14.190419 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m23:28:14.190570 [debug] [MainThread]: Using postgres connection "master"
+[0m23:28:14.190737 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m23:28:14.196198 [debug] [MainThread]: SQL status: SELECT 0 in 0.005 seconds
+[0m23:28:14.196808 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f6a9eed5-ef0b-40a2-8f0d-355d80a6ff33', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f528070>]}
+[0m23:28:14.197025 [debug] [MainThread]: On master: ROLLBACK
+[0m23:28:14.197278 [debug] [MainThread]: Using postgres connection "master"
+[0m23:28:14.197404 [debug] [MainThread]: On master: BEGIN
+[0m23:28:14.197673 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m23:28:14.197804 [debug] [MainThread]: On master: COMMIT
+[0m23:28:14.197924 [debug] [MainThread]: Using postgres connection "master"
+[0m23:28:14.198035 [debug] [MainThread]: On master: COMMIT
+[0m23:28:14.198228 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m23:28:14.198356 [debug] [MainThread]: On master: Close
+[0m23:28:14.199506 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:28:14.199736 [info ] [Thread-1  ]: 1 of 4 START sql view model public.asset_ctr_positive .......................... [RUN]
+[0m23:28:14.199929 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_project_ads_db_public, now model.ozon_ads_analytics.asset_ctr_positive)
+[0m23:28:14.200081 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:28:14.203743 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:28:14.204163 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:28:14.218921 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:28:14.219418 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:28:14.219599 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: BEGIN
+[0m23:28:14.219736 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:28:14.227273 [debug] [Thread-1  ]: SQL status: BEGIN in 0.008 seconds
+[0m23:28:14.227422 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:28:14.227562 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+
+  create view "project_ads_db"."public"."asset_ctr_positive__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    event_id,
+    event_time,
+    user_id,
+    product_id,
+    placement,
+    device_type,
+    is_click,
+    bid_price,
+    page_load_time_ms
+FROM default.raw_ad_events
+  );
+[0m23:28:14.228249 [debug] [Thread-1  ]: Postgres adapter: Postgres error: syntax error at or near "default"
+LINE 19: FROM default.raw_ad_events
+              ^
+
+[0m23:28:14.228397 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: ROLLBACK
+[0m23:28:14.228677 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: Close
+[0m23:28:14.239675 [debug] [Thread-1  ]: Database Error in model asset_ctr_positive (models/staging/asset_ctr_positive.sql)
+  syntax error at or near "default"
+  LINE 19: FROM default.raw_ad_events
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/asset_ctr_positive.sql
+[0m23:28:14.240632 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f6a9eed5-ef0b-40a2-8f0d-355d80a6ff33', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d49afa0>]}
+[0m23:28:14.240917 [error] [Thread-1  ]: 1 of 4 ERROR creating sql view model public.asset_ctr_positive ................. [[31mERROR[0m in 0.04s]
+[0m23:28:14.241157 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:28:14.241315 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:28:14.241500 [debug] [Thread-4  ]: Marking all children of 'model.ozon_ads_analytics.asset_ctr_positive' to be skipped because of status 'error'.  Reason: Database Error in model asset_ctr_positive (models/staging/asset_ctr_positive.sql)
+  syntax error at or near "default"
+  LINE 19: FROM default.raw_ad_events
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/asset_ctr_positive.sql.
+[0m23:28:14.241688 [info ] [Thread-1  ]: 2 of 4 START sql view model public.stg_speed_metrics ........................... [RUN]
+[0m23:28:14.241919 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.ozon_ads_analytics.asset_ctr_positive, now model.ozon_ads_analytics.stg_speed_metrics)
+[0m23:28:14.242052 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:28:14.243239 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:28:14.243486 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:28:14.244889 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:28:14.245123 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:28:14.245250 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: BEGIN
+[0m23:28:14.245362 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:28:14.253335 [debug] [Thread-1  ]: SQL status: BEGIN in 0.008 seconds
+[0m23:28:14.253509 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:28:14.253656 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+
+  create view "project_ads_db"."public"."stg_speed_metrics__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    id,
+    url,
+    ROUND(lcp_ms / 1000.0, 2) AS lcp_sec,
+    ROUND(fcp_ms / 1000.0, 2) AS fcp_sec,
+    cls,
+    ROUND(tbt_ms / 1000.0, 2) AS tbt_sec,
+    parsed_at
+FROM public.raw_speed_metrics
+  );
+[0m23:28:14.255077 [debug] [Thread-1  ]: Postgres adapter: Postgres error: relation "public.raw_speed_metrics" does not exist
+LINE 17: FROM public.raw_speed_metrics
+              ^
+
+[0m23:28:14.255224 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: ROLLBACK
+[0m23:28:14.255495 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: Close
+[0m23:28:14.258043 [debug] [Thread-1  ]: Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:28:14.258261 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'f6a9eed5-ef0b-40a2-8f0d-355d80a6ff33', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f868e80>]}
+[0m23:28:14.258525 [error] [Thread-1  ]: 2 of 4 ERROR creating sql view model public.stg_speed_metrics .................. [[31mERROR[0m in 0.02s]
+[0m23:28:14.258748 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:28:14.258956 [debug] [Thread-4  ]: Marking all children of 'model.ozon_ads_analytics.stg_speed_metrics' to be skipped because of status 'error'.  Reason: Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql.
+[0m23:28:14.259338 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:28:14.259535 [info ] [Thread-1  ]: 3 of 4 SKIP relation public.ads_metrics_hourly ................................. [[33mSKIP[0m]
+[0m23:28:14.259709 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:28:14.259850 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:28:14.260010 [info ] [Thread-1  ]: 4 of 4 SKIP relation public.speed_metrics_daily ................................ [[33mSKIP[0m]
+[0m23:28:14.260170 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:28:14.260565 [debug] [MainThread]: Using postgres connection "master"
+[0m23:28:14.260688 [debug] [MainThread]: On master: BEGIN
+[0m23:28:14.260797 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:28:14.269126 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m23:28:14.269251 [debug] [MainThread]: On master: COMMIT
+[0m23:28:14.269363 [debug] [MainThread]: Using postgres connection "master"
+[0m23:28:14.269468 [debug] [MainThread]: On master: COMMIT
+[0m23:28:14.269656 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m23:28:14.269775 [debug] [MainThread]: On master: Close
+[0m23:28:14.269926 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:28:14.270032 [debug] [MainThread]: Connection 'model.ozon_ads_analytics.stg_speed_metrics' was properly closed.
+[0m23:28:14.270181 [info ] [MainThread]: 
+[0m23:28:14.270306 [info ] [MainThread]: Finished running 2 table models, 2 view models in 0 hours 0 minutes and 0.27 seconds (0.27s).
+[0m23:28:14.270637 [debug] [MainThread]: Command end result
+[0m23:28:14.279948 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m23:28:14.280623 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m23:28:14.283313 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/aminivanovskij/Project1/dbt/target/run_results.json
+[0m23:28:14.283433 [info ] [MainThread]: 
+[0m23:28:14.283580 [info ] [MainThread]: [31mCompleted with 2 errors, 0 partial successes, and 0 warnings:[0m
+[0m23:28:14.283702 [info ] [MainThread]: 
+[0m23:28:14.283843 [error] [MainThread]: [31mFailure in model asset_ctr_positive (models/staging/asset_ctr_positive.sql)[0m
+[0m23:28:14.283979 [error] [MainThread]:   Database Error in model asset_ctr_positive (models/staging/asset_ctr_positive.sql)
+  syntax error at or near "default"
+  LINE 19: FROM default.raw_ad_events
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/asset_ctr_positive.sql
+[0m23:28:14.284089 [info ] [MainThread]: 
+[0m23:28:14.284217 [info ] [MainThread]:   compiled code at target/compiled/ozon_ads_analytics/models/staging/asset_ctr_positive.sql
+[0m23:28:14.284326 [info ] [MainThread]: 
+[0m23:28:14.284455 [error] [MainThread]: [31mFailure in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)[0m
+[0m23:28:14.284587 [error] [MainThread]:   Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:28:14.284692 [info ] [MainThread]: 
+[0m23:28:14.284815 [info ] [MainThread]:   compiled code at target/compiled/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:28:14.284928 [info ] [MainThread]: 
+[0m23:28:14.285048 [info ] [MainThread]: Done. PASS=0 WARN=0 ERROR=2 SKIP=2 NO-OP=0 TOTAL=4
+[0m23:28:14.286312 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.884422, "process_in_blocks": "0", "process_kernel_time": 0.152952, "process_mem_max_rss": "156303360", "process_out_blocks": "0", "process_user_time": 1.632846}
+[0m23:28:14.286465 [debug] [MainThread]: Command `dbt run` failed at 23:28:14.286435 after 0.88 seconds
+[0m23:28:14.286616 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce8efa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e2d6d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f4b1c10>]}
+[0m23:28:14.286761 [debug] [MainThread]: Flushing usage events
+[0m23:28:14.836949 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:36:53.288462 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cbbbcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e09cc40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e09c910>]}
+
+
+============================== 23:36:53.290645 | 6ce09bca-b5d1-4b71-a591-0091bc79f758 ==============================
+[0m23:36:53.290645 [info ] [MainThread]: Running with dbt=1.10.23
+[0m23:36:53.290878 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'indirect_selection': 'eager', 'static_parser': 'True', 'fail_fast': 'False', 'profiles_dir': '.', 'warn_error': 'None', 'printer_width': '80', 'no_print': 'None', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'quiet': 'False', 'target_path': 'None', 'use_experimental_parser': 'False', 'empty': 'False', 'introspect': 'True', 'debug': 'False', 'cache_selected_only': 'False', 'invocation_command': 'dbt run --profiles-dir .', 'log_cache_events': 'False', 'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'version_check': 'True', 'use_colors': 'True', 'partial_parse': 'True', 'write_json': 'True'}
+[0m23:36:53.291037 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m23:36:53.291164 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '6ce09bca-b5d1-4b71-a591-0091bc79f758', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cbbbcd0>]}
+[0m23:36:53.378865 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6ce09bca-b5d1-4b71-a591-0091bc79f758', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b687eb0>]}
+[0m23:36:53.401046 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6ce09bca-b5d1-4b71-a591-0091bc79f758', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e7d45e0>]}
+[0m23:36:53.401555 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m23:36:53.450771 [debug] [MainThread]: checksum: 2b1352ea083ab2415ad0dbf54db2d1ac6054af1cb939f9d756e37438b9e9a7cf, vars: {}, profile: , target: , version: 1.10.23
+[0m23:36:53.529682 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m23:36:53.529942 [debug] [MainThread]: Partial parsing: updated file: ozon_ads_analytics://models/staging/asset_ctr_positive.sql
+[0m23:36:53.617233 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '6ce09bca-b5d1-4b71-a591-0091bc79f758', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f1c79a0>]}
+[0m23:36:53.641591 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m23:36:53.642786 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m23:36:53.651277 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '6ce09bca-b5d1-4b71-a591-0091bc79f758', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ef6b220>]}
+[0m23:36:53.651466 [info ] [MainThread]: Found 4 models, 434 macros
+[0m23:36:53.651605 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6ce09bca-b5d1-4b71-a591-0091bc79f758', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f1acf70>]}
+[0m23:36:53.652154 [info ] [MainThread]: 
+[0m23:36:53.652286 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:36:53.652395 [info ] [MainThread]: 
+[0m23:36:53.652573 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m23:36:53.654242 [debug] [ThreadPool]: Acquiring new postgres connection 'list_project_ads_db'
+[0m23:36:53.680856 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db"
+[0m23:36:53.681062 [debug] [ThreadPool]: On list_project_ads_db: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:36:53.681177 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:36:53.710062 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.029 seconds
+[0m23:36:53.710659 [debug] [ThreadPool]: On list_project_ads_db: Close
+[0m23:36:53.711229 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_project_ads_db, now list_project_ads_db_public)
+[0m23:36:53.713758 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m23:36:53.713886 [debug] [ThreadPool]: On list_project_ads_db_public: BEGIN
+[0m23:36:53.713989 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:36:53.722081 [debug] [ThreadPool]: SQL status: BEGIN in 0.008 seconds
+[0m23:36:53.722204 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m23:36:53.722325 [debug] [ThreadPool]: On list_project_ads_db_public: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db_public"} */
+select
+      'project_ads_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m23:36:53.727997 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.006 seconds
+[0m23:36:53.728464 [debug] [ThreadPool]: On list_project_ads_db_public: ROLLBACK
+[0m23:36:53.728696 [debug] [ThreadPool]: On list_project_ads_db_public: Close
+[0m23:36:53.730602 [debug] [MainThread]: Using postgres connection "master"
+[0m23:36:53.730732 [debug] [MainThread]: On master: BEGIN
+[0m23:36:53.730880 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:36:53.738306 [debug] [MainThread]: SQL status: BEGIN in 0.007 seconds
+[0m23:36:53.738428 [debug] [MainThread]: Using postgres connection "master"
+[0m23:36:53.738576 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m23:36:53.743981 [debug] [MainThread]: SQL status: SELECT 0 in 0.005 seconds
+[0m23:36:53.744399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '6ce09bca-b5d1-4b71-a591-0091bc79f758', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10efe7820>]}
+[0m23:36:53.744582 [debug] [MainThread]: On master: ROLLBACK
+[0m23:36:53.744809 [debug] [MainThread]: Using postgres connection "master"
+[0m23:36:53.744924 [debug] [MainThread]: On master: BEGIN
+[0m23:36:53.745168 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m23:36:53.745285 [debug] [MainThread]: On master: COMMIT
+[0m23:36:53.745396 [debug] [MainThread]: Using postgres connection "master"
+[0m23:36:53.745502 [debug] [MainThread]: On master: COMMIT
+[0m23:36:53.745677 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m23:36:53.745793 [debug] [MainThread]: On master: Close
+[0m23:36:53.746847 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:36:53.747067 [info ] [Thread-1  ]: 1 of 4 START sql view model public.asset_ctr_positive .......................... [RUN]
+[0m23:36:53.747250 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_project_ads_db_public, now model.ozon_ads_analytics.asset_ctr_positive)
+[0m23:36:53.747392 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:36:53.750844 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:36:53.751158 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:36:53.765320 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:36:53.765647 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:36:53.765781 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: BEGIN
+[0m23:36:53.765901 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:36:53.774407 [debug] [Thread-1  ]: SQL status: BEGIN in 0.008 seconds
+[0m23:36:53.774579 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:36:53.774730 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+
+  create view "project_ads_db"."public"."asset_ctr_positive__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    event_id,
+    event_time,
+    user_id,
+    product_id,
+    placement,
+    device_type,
+    is_click,
+    bid_price,
+    page_load_time_ms
+FROM public.raw_ad_events
+  );
+[0m23:36:53.792007 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.017 seconds
+[0m23:36:53.794953 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:36:53.795126 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+alter table "project_ads_db"."public"."asset_ctr_positive__dbt_tmp" rename to "asset_ctr_positive"
+[0m23:36:53.796904 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.002 seconds
+[0m23:36:53.802924 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m23:36:53.803081 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:36:53.803220 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m23:36:53.805798 [debug] [Thread-1  ]: SQL status: COMMIT in 0.002 seconds
+[0m23:36:53.808271 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."asset_ctr_positive__dbt_backup"
+[0m23:36:53.810030 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:36:53.810183 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+drop view if exists "project_ads_db"."public"."asset_ctr_positive__dbt_backup" cascade
+[0m23:36:53.811087 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.001 seconds
+[0m23:36:53.812111 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: Close
+[0m23:36:53.813151 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ce09bca-b5d1-4b71-a591-0091bc79f758', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f603be0>]}
+[0m23:36:53.813428 [info ] [Thread-1  ]: 1 of 4 OK created sql view model public.asset_ctr_positive ..................... [[32mCREATE VIEW[0m in 0.07s]
+[0m23:36:53.813661 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:36:53.813820 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:36:53.814056 [info ] [Thread-1  ]: 2 of 4 START sql view model public.stg_speed_metrics ........................... [RUN]
+[0m23:36:53.814263 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.ozon_ads_analytics.asset_ctr_positive, now model.ozon_ads_analytics.stg_speed_metrics)
+[0m23:36:53.814416 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:36:53.815586 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:36:53.816033 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:36:53.818065 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:36:53.818329 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:36:53.818467 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: BEGIN
+[0m23:36:53.818600 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:36:53.830114 [debug] [Thread-1  ]: SQL status: BEGIN in 0.011 seconds
+[0m23:36:53.830303 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:36:53.830449 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+
+  create view "project_ads_db"."public"."stg_speed_metrics__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    id,
+    url,
+    ROUND(lcp_ms / 1000.0, 2) AS lcp_sec,
+    ROUND(fcp_ms / 1000.0, 2) AS fcp_sec,
+    cls,
+    ROUND(tbt_ms / 1000.0, 2) AS tbt_sec,
+    parsed_at
+FROM public.raw_speed_metrics
+  );
+[0m23:36:53.831359 [debug] [Thread-1  ]: Postgres adapter: Postgres error: relation "public.raw_speed_metrics" does not exist
+LINE 17: FROM public.raw_speed_metrics
+              ^
+
+[0m23:36:53.831513 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: ROLLBACK
+[0m23:36:53.831806 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: Close
+[0m23:36:53.843131 [debug] [Thread-1  ]: Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:36:53.843395 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '6ce09bca-b5d1-4b71-a591-0091bc79f758', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10f777e50>]}
+[0m23:36:53.843670 [error] [Thread-1  ]: 2 of 4 ERROR creating sql view model public.stg_speed_metrics .................. [[31mERROR[0m in 0.03s]
+[0m23:36:53.843926 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:36:53.844223 [debug] [Thread-4  ]: Marking all children of 'model.ozon_ads_analytics.stg_speed_metrics' to be skipped because of status 'error'.  Reason: Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql.
+[0m23:36:53.844592 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:36:53.844753 [info ] [Thread-1  ]: 3 of 4 SKIP relation public.ads_metrics_hourly ................................. [[33mSKIP[0m]
+[0m23:36:53.844909 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:36:53.845048 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:36:53.845216 [info ] [Thread-1  ]: 4 of 4 SKIP relation public.speed_metrics_daily ................................ [[33mSKIP[0m]
+[0m23:36:53.845391 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:36:53.845805 [debug] [MainThread]: Using postgres connection "master"
+[0m23:36:53.845924 [debug] [MainThread]: On master: BEGIN
+[0m23:36:53.846024 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:36:53.854726 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m23:36:53.854860 [debug] [MainThread]: On master: COMMIT
+[0m23:36:53.854980 [debug] [MainThread]: Using postgres connection "master"
+[0m23:36:53.855090 [debug] [MainThread]: On master: COMMIT
+[0m23:36:53.855281 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m23:36:53.855402 [debug] [MainThread]: On master: Close
+[0m23:36:53.855562 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:36:53.855673 [debug] [MainThread]: Connection 'model.ozon_ads_analytics.stg_speed_metrics' was properly closed.
+[0m23:36:53.855833 [info ] [MainThread]: 
+[0m23:36:53.855964 [info ] [MainThread]: Finished running 2 table models, 2 view models in 0 hours 0 minutes and 0.20 seconds (0.20s).
+[0m23:36:53.856319 [debug] [MainThread]: Command end result
+[0m23:36:53.865328 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m23:36:53.866060 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m23:36:53.868657 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/aminivanovskij/Project1/dbt/target/run_results.json
+[0m23:36:53.868781 [info ] [MainThread]: 
+[0m23:36:53.868929 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m23:36:53.869051 [info ] [MainThread]: 
+[0m23:36:53.869200 [error] [MainThread]: [31mFailure in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)[0m
+[0m23:36:53.869343 [error] [MainThread]:   Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:36:53.869458 [info ] [MainThread]: 
+[0m23:36:53.869592 [info ] [MainThread]:   compiled code at target/compiled/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:36:53.869705 [info ] [MainThread]: 
+[0m23:36:53.869830 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=2 NO-OP=0 TOTAL=4
+[0m23:36:53.871638 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.6164484, "process_in_blocks": "0", "process_kernel_time": 0.19198, "process_mem_max_rss": "156090368", "process_out_blocks": "0", "process_user_time": 1.416903}
+[0m23:36:53.871794 [debug] [MainThread]: Command `dbt run` failed at 23:36:53.871762 after 0.62 seconds
+[0m23:36:53.871944 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cbbbcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b687eb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ef6b340>]}
+[0m23:36:53.872098 [debug] [MainThread]: Flushing usage events
+[0m23:36:54.570227 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:44:34.844665 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f9a280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a476700>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a476a30>]}
+
+
+============================== 23:44:34.846998 | 3b231b85-b18e-4837-ae6d-60149ad47a67 ==============================
+[0m23:44:34.846998 [info ] [MainThread]: Running with dbt=1.10.23
+[0m23:44:34.847225 [debug] [MainThread]: running dbt with arguments {'empty': 'False', 'debug': 'False', 'partial_parse': 'True', 'use_experimental_parser': 'False', 'static_parser': 'True', 'log_cache_events': 'False', 'profiles_dir': '.', 'invocation_command': 'dbt run --profiles-dir .', 'target_path': 'None', 'no_print': 'None', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'quiet': 'False', 'warn_error': 'None', 'log_format': 'default', 'cache_selected_only': 'False', 'write_json': 'True', 'printer_width': '80', 'indirect_selection': 'eager', 'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'version_check': 'True', 'use_colors': 'True'}
+[0m23:44:34.847370 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m23:44:34.847502 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '3b231b85-b18e-4837-ae6d-60149ad47a67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f9a280>]}
+[0m23:44:34.938477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3b231b85-b18e-4837-ae6d-60149ad47a67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a447ac0>]}
+[0m23:44:34.960739 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3b231b85-b18e-4837-ae6d-60149ad47a67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1097844c0>]}
+[0m23:44:34.961346 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m23:44:35.011057 [debug] [MainThread]: checksum: 2b1352ea083ab2415ad0dbf54db2d1ac6054af1cb939f9d756e37438b9e9a7cf, vars: {}, profile: , target: , version: 1.10.23
+[0m23:44:35.089257 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:44:35.089445 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:44:35.101106 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3b231b85-b18e-4837-ae6d-60149ad47a67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b3e4130>]}
+[0m23:44:35.126335 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m23:44:35.127281 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m23:44:35.135512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3b231b85-b18e-4837-ae6d-60149ad47a67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ab67fa0>]}
+[0m23:44:35.135681 [info ] [MainThread]: Found 4 models, 434 macros
+[0m23:44:35.135813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3b231b85-b18e-4837-ae6d-60149ad47a67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ab34e80>]}
+[0m23:44:35.136475 [info ] [MainThread]: 
+[0m23:44:35.136605 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:44:35.136711 [info ] [MainThread]: 
+[0m23:44:35.136883 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m23:44:35.138491 [debug] [ThreadPool]: Acquiring new postgres connection 'list_project_ads_db'
+[0m23:44:35.163238 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db"
+[0m23:44:35.163431 [debug] [ThreadPool]: On list_project_ads_db: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:44:35.163546 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:44:35.255181 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.091 seconds
+[0m23:44:35.255890 [debug] [ThreadPool]: On list_project_ads_db: Close
+[0m23:44:35.257004 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_project_ads_db, now list_project_ads_db_public)
+[0m23:44:35.259994 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m23:44:35.260167 [debug] [ThreadPool]: On list_project_ads_db_public: BEGIN
+[0m23:44:35.260283 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:44:35.266306 [debug] [ThreadPool]: SQL status: BEGIN in 0.006 seconds
+[0m23:44:35.266570 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m23:44:35.266703 [debug] [ThreadPool]: On list_project_ads_db_public: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db_public"} */
+select
+      'project_ads_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m23:44:35.269320 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.002 seconds
+[0m23:44:35.269982 [debug] [ThreadPool]: On list_project_ads_db_public: ROLLBACK
+[0m23:44:35.270214 [debug] [ThreadPool]: On list_project_ads_db_public: Close
+[0m23:44:35.272642 [debug] [MainThread]: Using postgres connection "master"
+[0m23:44:35.272795 [debug] [MainThread]: On master: BEGIN
+[0m23:44:35.272904 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:44:35.279528 [debug] [MainThread]: SQL status: BEGIN in 0.007 seconds
+[0m23:44:35.279949 [debug] [MainThread]: Using postgres connection "master"
+[0m23:44:35.280320 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m23:44:35.283718 [debug] [MainThread]: SQL status: SELECT 1 in 0.003 seconds
+[0m23:44:35.285052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3b231b85-b18e-4837-ae6d-60149ad47a67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b40c4f0>]}
+[0m23:44:35.285406 [debug] [MainThread]: On master: ROLLBACK
+[0m23:44:35.285675 [debug] [MainThread]: Using postgres connection "master"
+[0m23:44:35.285800 [debug] [MainThread]: On master: BEGIN
+[0m23:44:35.286149 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m23:44:35.286268 [debug] [MainThread]: On master: COMMIT
+[0m23:44:35.286373 [debug] [MainThread]: Using postgres connection "master"
+[0m23:44:35.286475 [debug] [MainThread]: On master: COMMIT
+[0m23:44:35.286687 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m23:44:35.286799 [debug] [MainThread]: On master: Close
+[0m23:44:35.287945 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:44:35.288159 [info ] [Thread-1  ]: 1 of 4 START sql view model public.asset_ctr_positive .......................... [RUN]
+[0m23:44:35.288346 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_project_ads_db_public, now model.ozon_ads_analytics.asset_ctr_positive)
+[0m23:44:35.288472 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:44:35.292299 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:44:35.292674 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:44:35.306694 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:44:35.307086 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:44:35.307223 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: BEGIN
+[0m23:44:35.307344 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:44:35.314653 [debug] [Thread-1  ]: SQL status: BEGIN in 0.007 seconds
+[0m23:44:35.314818 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:44:35.314948 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+
+  create view "project_ads_db"."public"."asset_ctr_positive__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    event_id,
+    event_time,
+    user_id,
+    product_id,
+    placement,
+    device_type,
+    is_click,
+    bid_price,
+    page_load_time_ms
+FROM public.raw_ad_events
+  );
+[0m23:44:35.319365 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.004 seconds
+[0m23:44:35.322010 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:44:35.322152 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+alter table "project_ads_db"."public"."asset_ctr_positive" rename to "asset_ctr_positive__dbt_backup"
+[0m23:44:35.322717 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m23:44:35.323860 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:44:35.323988 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+alter table "project_ads_db"."public"."asset_ctr_positive__dbt_tmp" rename to "asset_ctr_positive"
+[0m23:44:35.324400 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m23:44:35.330575 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m23:44:35.330729 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:44:35.330855 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m23:44:35.331665 [debug] [Thread-1  ]: SQL status: COMMIT in 0.001 seconds
+[0m23:44:35.334023 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."asset_ctr_positive__dbt_backup"
+[0m23:44:35.335593 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:44:35.335732 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+drop view if exists "project_ads_db"."public"."asset_ctr_positive__dbt_backup" cascade
+[0m23:44:35.339807 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.004 seconds
+[0m23:44:35.340738 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: Close
+[0m23:44:35.341707 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3b231b85-b18e-4837-ae6d-60149ad47a67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b86a280>]}
+[0m23:44:35.341955 [info ] [Thread-1  ]: 1 of 4 OK created sql view model public.asset_ctr_positive ..................... [[32mCREATE VIEW[0m in 0.05s]
+[0m23:44:35.342175 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:44:35.342320 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:44:35.342536 [info ] [Thread-1  ]: 2 of 4 START sql view model public.stg_speed_metrics ........................... [RUN]
+[0m23:44:35.342736 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.ozon_ads_analytics.asset_ctr_positive, now model.ozon_ads_analytics.stg_speed_metrics)
+[0m23:44:35.342873 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:44:35.344329 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:44:35.344596 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:44:35.345992 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:44:35.346389 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:44:35.346516 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: BEGIN
+[0m23:44:35.346633 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:44:35.354808 [debug] [Thread-1  ]: SQL status: BEGIN in 0.008 seconds
+[0m23:44:35.354958 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:44:35.355085 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+
+  create view "project_ads_db"."public"."stg_speed_metrics__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    id,
+    url,
+    ROUND(lcp_ms / 1000.0, 2) AS lcp_sec,
+    ROUND(fcp_ms / 1000.0, 2) AS fcp_sec,
+    cls,
+    ROUND(tbt_ms / 1000.0, 2) AS tbt_sec,
+    parsed_at
+FROM public.raw_speed_metrics
+  );
+[0m23:44:35.355662 [debug] [Thread-1  ]: Postgres adapter: Postgres error: relation "public.raw_speed_metrics" does not exist
+LINE 17: FROM public.raw_speed_metrics
+              ^
+
+[0m23:44:35.355801 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: ROLLBACK
+[0m23:44:35.356074 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: Close
+[0m23:44:35.367408 [debug] [Thread-1  ]: Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:44:35.367632 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3b231b85-b18e-4837-ae6d-60149ad47a67', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108e7ad60>]}
+[0m23:44:35.367892 [error] [Thread-1  ]: 2 of 4 ERROR creating sql view model public.stg_speed_metrics .................. [[31mERROR[0m in 0.02s]
+[0m23:44:35.368134 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:44:35.368324 [debug] [Thread-4  ]: Marking all children of 'model.ozon_ads_analytics.stg_speed_metrics' to be skipped because of status 'error'.  Reason: Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql.
+[0m23:44:35.368625 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:44:35.368812 [info ] [Thread-1  ]: 3 of 4 SKIP relation public.ads_metrics_hourly ................................. [[33mSKIP[0m]
+[0m23:44:35.368984 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:44:35.369129 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:44:35.369288 [info ] [Thread-1  ]: 4 of 4 SKIP relation public.speed_metrics_daily ................................ [[33mSKIP[0m]
+[0m23:44:35.369438 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:44:35.369806 [debug] [MainThread]: Using postgres connection "master"
+[0m23:44:35.369931 [debug] [MainThread]: On master: BEGIN
+[0m23:44:35.370040 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:44:35.375029 [debug] [MainThread]: SQL status: BEGIN in 0.005 seconds
+[0m23:44:35.375177 [debug] [MainThread]: On master: COMMIT
+[0m23:44:35.375289 [debug] [MainThread]: Using postgres connection "master"
+[0m23:44:35.375392 [debug] [MainThread]: On master: COMMIT
+[0m23:44:35.375553 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m23:44:35.375665 [debug] [MainThread]: On master: Close
+[0m23:44:35.375812 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:44:35.375917 [debug] [MainThread]: Connection 'model.ozon_ads_analytics.stg_speed_metrics' was properly closed.
+[0m23:44:35.376062 [info ] [MainThread]: 
+[0m23:44:35.376185 [info ] [MainThread]: Finished running 2 table models, 2 view models in 0 hours 0 minutes and 0.24 seconds (0.24s).
+[0m23:44:35.376660 [debug] [MainThread]: Command end result
+[0m23:44:35.385123 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m23:44:35.385862 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m23:44:35.388669 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/aminivanovskij/Project1/dbt/target/run_results.json
+[0m23:44:35.388796 [info ] [MainThread]: 
+[0m23:44:35.388931 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m23:44:35.389044 [info ] [MainThread]: 
+[0m23:44:35.389181 [error] [MainThread]: [31mFailure in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)[0m
+[0m23:44:35.389314 [error] [MainThread]:   Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:44:35.389420 [info ] [MainThread]: 
+[0m23:44:35.389541 [info ] [MainThread]:   compiled code at target/compiled/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:44:35.389645 [info ] [MainThread]: 
+[0m23:44:35.389760 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=2 NO-OP=0 TOTAL=4
+[0m23:44:35.391485 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.57732296, "process_in_blocks": "0", "process_kernel_time": 0.169354, "process_mem_max_rss": "152174592", "process_out_blocks": "0", "process_user_time": 1.348004}
+[0m23:44:35.391658 [debug] [MainThread]: Command `dbt run` failed at 23:44:35.391623 after 0.58 seconds
+[0m23:44:35.391804 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x108f9a280>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ab67ee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x107a84730>]}
+[0m23:44:35.391948 [debug] [MainThread]: Flushing usage events
+[0m23:44:36.040989 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:48:03.818675 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b940820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce2a0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce2a3d0>]}
+
+
+============================== 23:48:03.820919 | acbd37df-f3a6-4f24-99e4-2e419c7889ce ==============================
+[0m23:48:03.820919 [info ] [MainThread]: Running with dbt=1.10.23
+[0m23:48:03.821150 [debug] [MainThread]: running dbt with arguments {'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'version_check': 'True', 'debug': 'False', 'warn_error': 'None', 'use_experimental_parser': 'False', 'write_json': 'True', 'profiles_dir': '.', 'log_format': 'default', 'indirect_selection': 'eager', 'no_print': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'empty': 'False', 'invocation_command': 'dbt run --profiles-dir .', 'use_colors': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'static_parser': 'True', 'printer_width': '80', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])'}
+[0m23:48:03.821299 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m23:48:03.821426 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': 'acbd37df-f3a6-4f24-99e4-2e419c7889ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b940820>]}
+[0m23:48:03.908838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'acbd37df-f3a6-4f24-99e4-2e419c7889ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a3de1f0>]}
+[0m23:48:03.930789 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'acbd37df-f3a6-4f24-99e4-2e419c7889ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cc65160>]}
+[0m23:48:03.931294 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m23:48:03.978106 [debug] [MainThread]: checksum: 2b1352ea083ab2415ad0dbf54db2d1ac6054af1cb939f9d756e37438b9e9a7cf, vars: {}, profile: , target: , version: 1.10.23
+[0m23:48:04.059148 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:48:04.059353 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:48:04.071274 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'acbd37df-f3a6-4f24-99e4-2e419c7889ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dd6e130>]}
+[0m23:48:04.097379 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m23:48:04.098488 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m23:48:04.106925 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'acbd37df-f3a6-4f24-99e4-2e419c7889ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dd380d0>]}
+[0m23:48:04.107125 [info ] [MainThread]: Found 4 models, 434 macros
+[0m23:48:04.107270 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'acbd37df-f3a6-4f24-99e4-2e419c7889ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dd43bb0>]}
+[0m23:48:04.108004 [info ] [MainThread]: 
+[0m23:48:04.108143 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:48:04.108253 [info ] [MainThread]: 
+[0m23:48:04.108441 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m23:48:04.110088 [debug] [ThreadPool]: Acquiring new postgres connection 'list_project_ads_db'
+[0m23:48:04.135894 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db"
+[0m23:48:04.136096 [debug] [ThreadPool]: On list_project_ads_db: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:48:04.136210 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:48:04.164238 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.028 seconds
+[0m23:48:04.164829 [debug] [ThreadPool]: On list_project_ads_db: Close
+[0m23:48:04.165399 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_project_ads_db, now list_project_ads_db_public)
+[0m23:48:04.167933 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m23:48:04.168059 [debug] [ThreadPool]: On list_project_ads_db_public: BEGIN
+[0m23:48:04.168160 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:48:04.176503 [debug] [ThreadPool]: SQL status: BEGIN in 0.008 seconds
+[0m23:48:04.176655 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m23:48:04.176797 [debug] [ThreadPool]: On list_project_ads_db_public: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db_public"} */
+select
+      'project_ads_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m23:48:04.183011 [debug] [ThreadPool]: SQL status: SELECT 2 in 0.006 seconds
+[0m23:48:04.183503 [debug] [ThreadPool]: On list_project_ads_db_public: ROLLBACK
+[0m23:48:04.183755 [debug] [ThreadPool]: On list_project_ads_db_public: Close
+[0m23:48:04.185755 [debug] [MainThread]: Using postgres connection "master"
+[0m23:48:04.185886 [debug] [MainThread]: On master: BEGIN
+[0m23:48:04.185996 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:48:04.193122 [debug] [MainThread]: SQL status: BEGIN in 0.007 seconds
+[0m23:48:04.193253 [debug] [MainThread]: Using postgres connection "master"
+[0m23:48:04.193400 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m23:48:04.197364 [debug] [MainThread]: SQL status: SELECT 1 in 0.004 seconds
+[0m23:48:04.198010 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'acbd37df-f3a6-4f24-99e4-2e419c7889ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dd3eca0>]}
+[0m23:48:04.198220 [debug] [MainThread]: On master: ROLLBACK
+[0m23:48:04.198498 [debug] [MainThread]: Using postgres connection "master"
+[0m23:48:04.198629 [debug] [MainThread]: On master: BEGIN
+[0m23:48:04.198972 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m23:48:04.199095 [debug] [MainThread]: On master: COMMIT
+[0m23:48:04.199208 [debug] [MainThread]: Using postgres connection "master"
+[0m23:48:04.199315 [debug] [MainThread]: On master: COMMIT
+[0m23:48:04.199520 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m23:48:04.199639 [debug] [MainThread]: On master: Close
+[0m23:48:04.200728 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:48:04.200971 [info ] [Thread-1  ]: 1 of 4 START sql view model public.asset_ctr_positive .......................... [RUN]
+[0m23:48:04.201169 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_project_ads_db_public, now model.ozon_ads_analytics.asset_ctr_positive)
+[0m23:48:04.201318 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:48:04.205013 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:48:04.205449 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:48:04.219134 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:48:04.219474 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:48:04.219612 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: BEGIN
+[0m23:48:04.219734 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:48:04.228477 [debug] [Thread-1  ]: SQL status: BEGIN in 0.009 seconds
+[0m23:48:04.228617 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:48:04.228745 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+
+  create view "project_ads_db"."public"."asset_ctr_positive__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    event_id,
+    event_time,
+    user_id,
+    product_id,
+    placement,
+    device_type,
+    is_click,
+    bid_price,
+    page_load_time_ms
+FROM public.raw_ad_events
+  );
+[0m23:48:04.232793 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.004 seconds
+[0m23:48:04.235520 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:48:04.235677 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+alter table "project_ads_db"."public"."asset_ctr_positive" rename to "asset_ctr_positive__dbt_backup"
+[0m23:48:04.236243 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m23:48:04.237547 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:48:04.237699 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+alter table "project_ads_db"."public"."asset_ctr_positive__dbt_tmp" rename to "asset_ctr_positive"
+[0m23:48:04.238022 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m23:48:04.244589 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m23:48:04.244743 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:48:04.244866 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m23:48:04.246313 [debug] [Thread-1  ]: SQL status: COMMIT in 0.001 seconds
+[0m23:48:04.248901 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."asset_ctr_positive__dbt_backup"
+[0m23:48:04.250520 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:48:04.250660 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+drop view if exists "project_ads_db"."public"."asset_ctr_positive__dbt_backup" cascade
+[0m23:48:04.252612 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.002 seconds
+[0m23:48:04.253637 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: Close
+[0m23:48:04.254642 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'acbd37df-f3a6-4f24-99e4-2e419c7889ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e1797f0>]}
+[0m23:48:04.254909 [info ] [Thread-1  ]: 1 of 4 OK created sql view model public.asset_ctr_positive ..................... [[32mCREATE VIEW[0m in 0.05s]
+[0m23:48:04.255135 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:48:04.255291 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:48:04.255508 [info ] [Thread-1  ]: 2 of 4 START sql view model public.stg_speed_metrics ........................... [RUN]
+[0m23:48:04.255685 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.ozon_ads_analytics.asset_ctr_positive, now model.ozon_ads_analytics.stg_speed_metrics)
+[0m23:48:04.255820 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:48:04.257257 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:48:04.257680 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:48:04.259144 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:48:04.259395 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:48:04.259526 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: BEGIN
+[0m23:48:04.259647 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:48:04.269345 [debug] [Thread-1  ]: SQL status: BEGIN in 0.010 seconds
+[0m23:48:04.269554 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:48:04.269695 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+
+  create view "project_ads_db"."public"."stg_speed_metrics__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    id,
+    url,
+    ROUND(lcp_ms / 1000.0, 2) AS lcp_sec,
+    ROUND(fcp_ms / 1000.0, 2) AS fcp_sec,
+    cls,
+    ROUND(tbt_ms / 1000.0, 2) AS tbt_sec,
+    parsed_at
+FROM public.raw_speed_metrics
+  );
+[0m23:48:04.270612 [debug] [Thread-1  ]: Postgres adapter: Postgres error: relation "public.raw_speed_metrics" does not exist
+LINE 17: FROM public.raw_speed_metrics
+              ^
+
+[0m23:48:04.270763 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: ROLLBACK
+[0m23:48:04.271088 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: Close
+[0m23:48:04.281962 [debug] [Thread-1  ]: Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:48:04.282234 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'acbd37df-f3a6-4f24-99e4-2e419c7889ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b820fd0>]}
+[0m23:48:04.282503 [error] [Thread-1  ]: 2 of 4 ERROR creating sql view model public.stg_speed_metrics .................. [[31mERROR[0m in 0.03s]
+[0m23:48:04.282728 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:48:04.282912 [debug] [Thread-4  ]: Marking all children of 'model.ozon_ads_analytics.stg_speed_metrics' to be skipped because of status 'error'.  Reason: Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql.
+[0m23:48:04.283235 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:48:04.283389 [info ] [Thread-1  ]: 3 of 4 SKIP relation public.ads_metrics_hourly ................................. [[33mSKIP[0m]
+[0m23:48:04.283552 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:48:04.283689 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:48:04.283852 [info ] [Thread-1  ]: 4 of 4 SKIP relation public.speed_metrics_daily ................................ [[33mSKIP[0m]
+[0m23:48:04.284021 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:48:04.284404 [debug] [MainThread]: Using postgres connection "master"
+[0m23:48:04.284521 [debug] [MainThread]: On master: BEGIN
+[0m23:48:04.284620 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:48:04.292020 [debug] [MainThread]: SQL status: BEGIN in 0.007 seconds
+[0m23:48:04.292159 [debug] [MainThread]: On master: COMMIT
+[0m23:48:04.292266 [debug] [MainThread]: Using postgres connection "master"
+[0m23:48:04.292363 [debug] [MainThread]: On master: COMMIT
+[0m23:48:04.292513 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m23:48:04.292622 [debug] [MainThread]: On master: Close
+[0m23:48:04.292768 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:48:04.292866 [debug] [MainThread]: Connection 'model.ozon_ads_analytics.stg_speed_metrics' was properly closed.
+[0m23:48:04.293010 [info ] [MainThread]: 
+[0m23:48:04.293139 [info ] [MainThread]: Finished running 2 table models, 2 view models in 0 hours 0 minutes and 0.18 seconds (0.18s).
+[0m23:48:04.293452 [debug] [MainThread]: Command end result
+[0m23:48:04.302036 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m23:48:04.302711 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m23:48:04.305631 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/aminivanovskij/Project1/dbt/target/run_results.json
+[0m23:48:04.305750 [info ] [MainThread]: 
+[0m23:48:04.305898 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m23:48:04.306017 [info ] [MainThread]: 
+[0m23:48:04.306160 [error] [MainThread]: [31mFailure in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)[0m
+[0m23:48:04.306296 [error] [MainThread]:   Database Error in model stg_speed_metrics (models/staging/stg_speed_metrics.sql)
+  relation "public.raw_speed_metrics" does not exist
+  LINE 17: FROM public.raw_speed_metrics
+                ^
+  compiled code at target/run/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:48:04.306407 [info ] [MainThread]: 
+[0m23:48:04.306534 [info ] [MainThread]:   compiled code at target/compiled/ozon_ads_analytics/models/staging/stg_speed_metrics.sql
+[0m23:48:04.306642 [info ] [MainThread]: 
+[0m23:48:04.306760 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=2 NO-OP=0 TOTAL=4
+[0m23:48:04.308457 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.52099764, "process_in_blocks": "0", "process_kernel_time": 0.165639, "process_mem_max_rss": "152174592", "process_out_blocks": "0", "process_user_time": 1.35742}
+[0m23:48:04.308619 [debug] [MainThread]: Command `dbt run` failed at 23:48:04.308588 after 0.52 seconds
+[0m23:48:04.308766 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b940820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cc65160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dd3eee0>]}
+[0m23:48:04.308908 [debug] [MainThread]: Flushing usage events
+[0m23:48:05.080962 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m23:55:41.137345 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b70e160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cbea490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cbea7c0>]}
+
+
+============================== 23:55:41.139957 | 9aad2bc8-98a7-4d13-906f-d5168a26330b ==============================
+[0m23:55:41.139957 [info ] [MainThread]: Running with dbt=1.10.23
+[0m23:55:41.140241 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'partial_parse': 'True', 'use_colors': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'no_print': 'None', 'log_cache_events': 'False', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'empty': 'False', 'invocation_command': 'dbt run --profiles-dir .', 'quiet': 'False', 'printer_width': '80', 'warn_error': 'None', 'write_json': 'True', 'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'debug': 'False', 'introspect': 'True', 'profiles_dir': '.', 'log_format': 'default', 'version_check': 'True', 'target_path': 'None', 'cache_selected_only': 'False', 'use_experimental_parser': 'False'}
+[0m23:55:41.140426 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m23:55:41.140561 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '9aad2bc8-98a7-4d13-906f-d5168a26330b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b70e160>]}
+[0m23:55:41.229749 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9aad2bc8-98a7-4d13-906f-d5168a26330b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f94190>]}
+[0m23:55:41.251794 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9aad2bc8-98a7-4d13-906f-d5168a26330b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c479430>]}
+[0m23:55:41.252377 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m23:55:41.299878 [debug] [MainThread]: checksum: 2b1352ea083ab2415ad0dbf54db2d1ac6054af1cb939f9d756e37438b9e9a7cf, vars: {}, profile: , target: , version: 1.10.23
+[0m23:55:41.380625 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m23:55:41.380825 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m23:55:41.392274 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9aad2bc8-98a7-4d13-906f-d5168a26330b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10db39130>]}
+[0m23:55:41.417627 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m23:55:41.418569 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m23:55:41.427116 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9aad2bc8-98a7-4d13-906f-d5168a26330b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d33e160>]}
+[0m23:55:41.427305 [info ] [MainThread]: Found 4 models, 434 macros
+[0m23:55:41.427451 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9aad2bc8-98a7-4d13-906f-d5168a26330b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10db0e1c0>]}
+[0m23:55:41.428109 [info ] [MainThread]: 
+[0m23:55:41.428255 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m23:55:41.428370 [info ] [MainThread]: 
+[0m23:55:41.428551 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m23:55:41.430175 [debug] [ThreadPool]: Acquiring new postgres connection 'list_project_ads_db'
+[0m23:55:41.454902 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db"
+[0m23:55:41.455083 [debug] [ThreadPool]: On list_project_ads_db: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m23:55:41.455195 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m23:55:41.485710 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.030 seconds
+[0m23:55:41.486258 [debug] [ThreadPool]: On list_project_ads_db: Close
+[0m23:55:41.486779 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_project_ads_db, now list_project_ads_db_public)
+[0m23:55:41.489276 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m23:55:41.489406 [debug] [ThreadPool]: On list_project_ads_db_public: BEGIN
+[0m23:55:41.489509 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m23:55:41.496633 [debug] [ThreadPool]: SQL status: BEGIN in 0.007 seconds
+[0m23:55:41.496791 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m23:55:41.496914 [debug] [ThreadPool]: On list_project_ads_db_public: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db_public"} */
+select
+      'project_ads_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m23:55:41.502580 [debug] [ThreadPool]: SQL status: SELECT 3 in 0.006 seconds
+[0m23:55:41.503092 [debug] [ThreadPool]: On list_project_ads_db_public: ROLLBACK
+[0m23:55:41.503325 [debug] [ThreadPool]: On list_project_ads_db_public: Close
+[0m23:55:41.505429 [debug] [MainThread]: Using postgres connection "master"
+[0m23:55:41.505565 [debug] [MainThread]: On master: BEGIN
+[0m23:55:41.505677 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m23:55:41.514145 [debug] [MainThread]: SQL status: BEGIN in 0.008 seconds
+[0m23:55:41.514292 [debug] [MainThread]: Using postgres connection "master"
+[0m23:55:41.514447 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m23:55:41.517937 [debug] [MainThread]: SQL status: SELECT 1 in 0.003 seconds
+[0m23:55:41.518537 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9aad2bc8-98a7-4d13-906f-d5168a26330b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10db5e370>]}
+[0m23:55:41.518730 [debug] [MainThread]: On master: ROLLBACK
+[0m23:55:41.519003 [debug] [MainThread]: Using postgres connection "master"
+[0m23:55:41.519123 [debug] [MainThread]: On master: BEGIN
+[0m23:55:41.519457 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m23:55:41.519587 [debug] [MainThread]: On master: COMMIT
+[0m23:55:41.519703 [debug] [MainThread]: Using postgres connection "master"
+[0m23:55:41.519811 [debug] [MainThread]: On master: COMMIT
+[0m23:55:41.520033 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m23:55:41.520154 [debug] [MainThread]: On master: Close
+[0m23:55:41.521233 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:55:41.521441 [info ] [Thread-1  ]: 1 of 4 START sql view model public.asset_ctr_positive .......................... [RUN]
+[0m23:55:41.521624 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_project_ads_db_public, now model.ozon_ads_analytics.asset_ctr_positive)
+[0m23:55:41.521767 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:55:41.525491 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:55:41.525761 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:55:41.539353 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:55:41.539710 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:55:41.539849 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: BEGIN
+[0m23:55:41.539975 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:55:41.547515 [debug] [Thread-1  ]: SQL status: BEGIN in 0.008 seconds
+[0m23:55:41.547681 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:55:41.547814 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+
+  create view "project_ads_db"."public"."asset_ctr_positive__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    event_id,
+    event_time,
+    user_id,
+    product_id,
+    placement,
+    device_type,
+    is_click,
+    bid_price,
+    page_load_time_ms
+FROM public.raw_ad_events
+  );
+[0m23:55:41.550731 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.003 seconds
+[0m23:55:41.553550 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:55:41.553708 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+alter table "project_ads_db"."public"."asset_ctr_positive" rename to "asset_ctr_positive__dbt_backup"
+[0m23:55:41.554212 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m23:55:41.555458 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:55:41.555603 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+alter table "project_ads_db"."public"."asset_ctr_positive__dbt_tmp" rename to "asset_ctr_positive"
+[0m23:55:41.556045 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m23:55:41.562253 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m23:55:41.562391 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:55:41.562511 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m23:55:41.563259 [debug] [Thread-1  ]: SQL status: COMMIT in 0.001 seconds
+[0m23:55:41.565545 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."asset_ctr_positive__dbt_backup"
+[0m23:55:41.567120 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m23:55:41.567260 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+drop view if exists "project_ads_db"."public"."asset_ctr_positive__dbt_backup" cascade
+[0m23:55:41.568632 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.001 seconds
+[0m23:55:41.569641 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: Close
+[0m23:55:41.570647 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9aad2bc8-98a7-4d13-906f-d5168a26330b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dfc2310>]}
+[0m23:55:41.570952 [info ] [Thread-1  ]: 1 of 4 OK created sql view model public.asset_ctr_positive ..................... [[32mCREATE VIEW[0m in 0.05s]
+[0m23:55:41.571279 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.asset_ctr_positive
+[0m23:55:41.571446 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:55:41.571669 [info ] [Thread-1  ]: 2 of 4 START sql view model public.stg_speed_metrics ........................... [RUN]
+[0m23:55:41.571923 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.ozon_ads_analytics.asset_ctr_positive, now model.ozon_ads_analytics.stg_speed_metrics)
+[0m23:55:41.572079 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:55:41.573800 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:55:41.574258 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:55:41.575698 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:55:41.575945 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:55:41.576077 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: BEGIN
+[0m23:55:41.576199 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:55:41.584482 [debug] [Thread-1  ]: SQL status: BEGIN in 0.008 seconds
+[0m23:55:41.584637 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:55:41.584773 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+
+  create view "project_ads_db"."public"."stg_speed_metrics__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    id,
+    url,
+    ROUND(lcp_ms / 1000.0, 2) AS lcp_sec,
+    ROUND(fcp_ms / 1000.0, 2) AS fcp_sec,
+    cls,
+    ROUND(tbt_ms / 1000.0, 2) AS tbt_sec,
+    parsed_at
+FROM public.raw_speed_metrics
+  );
+[0m23:55:41.588435 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.004 seconds
+[0m23:55:41.589805 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:55:41.589962 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+alter table "project_ads_db"."public"."stg_speed_metrics__dbt_tmp" rename to "stg_speed_metrics"
+[0m23:55:41.590501 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m23:55:41.591295 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: COMMIT
+[0m23:55:41.591481 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:55:41.591627 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: COMMIT
+[0m23:55:41.591961 [debug] [Thread-1  ]: SQL status: COMMIT in 0.000 seconds
+[0m23:55:41.593029 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."stg_speed_metrics__dbt_backup"
+[0m23:55:41.593311 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m23:55:41.593441 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+drop view if exists "project_ads_db"."public"."stg_speed_metrics__dbt_backup" cascade
+[0m23:55:41.593728 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.000 seconds
+[0m23:55:41.594173 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: Close
+[0m23:55:41.594395 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9aad2bc8-98a7-4d13-906f-d5168a26330b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b5fed90>]}
+[0m23:55:41.594630 [info ] [Thread-1  ]: 2 of 4 OK created sql view model public.stg_speed_metrics ...................... [[32mCREATE VIEW[0m in 0.02s]
+[0m23:55:41.594850 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.stg_speed_metrics
+[0m23:55:41.595169 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:55:41.595345 [info ] [Thread-1  ]: 3 of 4 START sql table model public.ads_metrics_hourly ......................... [RUN]
+[0m23:55:41.595512 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.ozon_ads_analytics.stg_speed_metrics, now model.ozon_ads_analytics.ads_metrics_hourly)
+[0m23:55:41.595642 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:55:41.596905 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.ads_metrics_hourly"
+[0m23:55:41.597246 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:55:41.605531 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.ads_metrics_hourly"
+[0m23:55:41.605853 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.ads_metrics_hourly"
+[0m23:55:41.605984 [debug] [Thread-1  ]: On model.ozon_ads_analytics.ads_metrics_hourly: BEGIN
+[0m23:55:41.606104 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:55:41.613452 [debug] [Thread-1  ]: SQL status: BEGIN in 0.007 seconds
+[0m23:55:41.613599 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.ads_metrics_hourly"
+[0m23:55:41.613739 [debug] [Thread-1  ]: On model.ozon_ads_analytics.ads_metrics_hourly: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.ads_metrics_hourly"} */
+
+  
+    
+
+  create  table "project_ads_db"."public"."ads_metrics_hourly__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+WITH cleaned_data AS (
+    SELECT 
+        toStartOfHour(event_time) as hour,
+        device_type,
+        placement,
+        count(event_id) as total_impressions,
+        sum(CASE WHEN is_click = true THEN 1 ELSE 0 END) as total_clicks,
+        avg(page_load_time_ms) as avg_page_load_ms,
+        avg(bid_price) as avg_bid_price
+    FROM "project_ads_db"."public"."stg_speed_metrics" -- Ссылка на предыдущую модель!
+    GROUP BY hour, device_type, placement
+)
+
+SELECT 
+    hour,
+    device_type,
+    placement,
+    total_impressions,
+    total_clicks,
+    CAST(avg_page_load_ms AS UInt32) as avg_page_load_ms,
+    CAST(avg_bid_price AS Float32) as avg_bid_price,
+    CAST((total_clicks / total_impressions) * 100 AS Float32) as ctr_percentage
+FROM cleaned_data
+  );
+  
+[0m23:55:41.618880 [debug] [Thread-1  ]: Postgres adapter: Postgres error: column "event_time" does not exist
+LINE 16:         toStartOfHour(event_time) as hour,
+                               ^
+
+[0m23:55:41.619033 [debug] [Thread-1  ]: On model.ozon_ads_analytics.ads_metrics_hourly: ROLLBACK
+[0m23:55:41.619307 [debug] [Thread-1  ]: On model.ozon_ads_analytics.ads_metrics_hourly: Close
+[0m23:55:41.629689 [debug] [Thread-1  ]: Database Error in model ads_metrics_hourly (models/marts/ads_metrics_hourly.sql)
+  column "event_time" does not exist
+  LINE 16:         toStartOfHour(event_time) as hour,
+                                 ^
+  compiled code at target/run/ozon_ads_analytics/models/marts/ads_metrics_hourly.sql
+[0m23:55:41.629902 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9aad2bc8-98a7-4d13-906f-d5168a26330b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e06b430>]}
+[0m23:55:41.630154 [error] [Thread-1  ]: 3 of 4 ERROR creating sql table model public.ads_metrics_hourly ................ [[31mERROR[0m in 0.03s]
+[0m23:55:41.630379 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.ads_metrics_hourly
+[0m23:55:41.630524 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:55:41.630704 [debug] [Thread-4  ]: Marking all children of 'model.ozon_ads_analytics.ads_metrics_hourly' to be skipped because of status 'error'.  Reason: Database Error in model ads_metrics_hourly (models/marts/ads_metrics_hourly.sql)
+  column "event_time" does not exist
+  LINE 16:         toStartOfHour(event_time) as hour,
+                                 ^
+  compiled code at target/run/ozon_ads_analytics/models/marts/ads_metrics_hourly.sql.
+[0m23:55:41.630882 [info ] [Thread-1  ]: 4 of 4 START sql table model public.speed_metrics_daily ........................ [RUN]
+[0m23:55:41.631102 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.ozon_ads_analytics.ads_metrics_hourly, now model.ozon_ads_analytics.speed_metrics_daily)
+[0m23:55:41.631235 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:55:41.633008 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.speed_metrics_daily"
+[0m23:55:41.633263 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:55:41.634705 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.speed_metrics_daily"
+[0m23:55:41.634940 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m23:55:41.635067 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: BEGIN
+[0m23:55:41.635182 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m23:55:41.640611 [debug] [Thread-1  ]: SQL status: BEGIN in 0.005 seconds
+[0m23:55:41.640760 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m23:55:41.641096 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.speed_metrics_daily"} */
+
+  
+    
+
+  create  table "project_ads_db"."public"."speed_metrics_daily__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+SELECT 
+    CAST(parsed_at AS DATE) AS metric_date,
+    url,
+    ROUND(AVG(lcp_sec), 2) AS avg_lcp_sec,
+    ROUND(AVG(cls), 3) AS avg_cls,
+    ROUND(AVG(tbt_sec), 2) AS avg_tbt_sec,
+    COUNT(*) AS measurements_count
+FROM "project_ads_db"."public"."stg_speed_metrics"
+GROUP BY CAST(parsed_at AS DATE), url
+ORDER BY metric_date DESC, url
+  );
+  
+[0m23:55:41.645615 [debug] [Thread-1  ]: SQL status: SELECT 2 in 0.004 seconds
+[0m23:55:41.648258 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m23:55:41.648396 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.speed_metrics_daily"} */
+alter table "project_ads_db"."public"."speed_metrics_daily__dbt_tmp" rename to "speed_metrics_daily"
+[0m23:55:41.648775 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m23:55:41.649281 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: COMMIT
+[0m23:55:41.649417 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m23:55:41.649551 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: COMMIT
+[0m23:55:41.650031 [debug] [Thread-1  ]: SQL status: COMMIT in 0.000 seconds
+[0m23:55:41.651009 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."speed_metrics_daily__dbt_backup"
+[0m23:55:41.651939 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m23:55:41.652078 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.speed_metrics_daily"} */
+drop table if exists "project_ads_db"."public"."speed_metrics_daily__dbt_backup" cascade
+[0m23:55:41.652395 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.000 seconds
+[0m23:55:41.652862 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: Close
+[0m23:55:41.653095 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9aad2bc8-98a7-4d13-906f-d5168a26330b', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e0fa520>]}
+[0m23:55:41.653338 [info ] [Thread-1  ]: 4 of 4 OK created sql table model public.speed_metrics_daily ................... [[32mSELECT 2[0m in 0.02s]
+[0m23:55:41.653555 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.speed_metrics_daily
+[0m23:55:41.653981 [debug] [MainThread]: Using postgres connection "master"
+[0m23:55:41.654108 [debug] [MainThread]: On master: BEGIN
+[0m23:55:41.654214 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m23:55:41.658888 [debug] [MainThread]: SQL status: BEGIN in 0.005 seconds
+[0m23:55:41.659012 [debug] [MainThread]: On master: COMMIT
+[0m23:55:41.659123 [debug] [MainThread]: Using postgres connection "master"
+[0m23:55:41.659287 [debug] [MainThread]: On master: COMMIT
+[0m23:55:41.659454 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m23:55:41.659575 [debug] [MainThread]: On master: Close
+[0m23:55:41.659728 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m23:55:41.659838 [debug] [MainThread]: Connection 'model.ozon_ads_analytics.speed_metrics_daily' was properly closed.
+[0m23:55:41.659995 [info ] [MainThread]: 
+[0m23:55:41.660122 [info ] [MainThread]: Finished running 2 table models, 2 view models in 0 hours 0 minutes and 0.23 seconds (0.23s).
+[0m23:55:41.660516 [debug] [MainThread]: Command end result
+[0m23:55:41.669614 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m23:55:41.670339 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m23:55:41.673238 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/aminivanovskij/Project1/dbt/target/run_results.json
+[0m23:55:41.673419 [info ] [MainThread]: 
+[0m23:55:41.673580 [info ] [MainThread]: [31mCompleted with 1 error, 0 partial successes, and 0 warnings:[0m
+[0m23:55:41.673704 [info ] [MainThread]: 
+[0m23:55:41.673851 [error] [MainThread]: [31mFailure in model ads_metrics_hourly (models/marts/ads_metrics_hourly.sql)[0m
+[0m23:55:41.673993 [error] [MainThread]:   Database Error in model ads_metrics_hourly (models/marts/ads_metrics_hourly.sql)
+  column "event_time" does not exist
+  LINE 16:         toStartOfHour(event_time) as hour,
+                                 ^
+  compiled code at target/run/ozon_ads_analytics/models/marts/ads_metrics_hourly.sql
+[0m23:55:41.674296 [info ] [MainThread]: 
+[0m23:55:41.674506 [info ] [MainThread]:   compiled code at target/compiled/ozon_ads_analytics/models/marts/ads_metrics_hourly.sql
+[0m23:55:41.674683 [info ] [MainThread]: 
+[0m23:55:41.674855 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=1 SKIP=0 NO-OP=0 TOTAL=4
+[0m23:55:41.676403 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.57220715, "process_in_blocks": "0", "process_kernel_time": 0.18449, "process_mem_max_rss": "152354816", "process_out_blocks": "0", "process_user_time": 1.366864}
+[0m23:55:41.676561 [debug] [MainThread]: Command `dbt run` failed at 23:55:41.676531 after 0.57 seconds
+[0m23:55:41.676707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b70e160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b1d5130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x109f94190>]}
+[0m23:55:41.676854 [debug] [MainThread]: Flushing usage events
+[0m23:55:42.541728 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m00:03:45.498247 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b4e2250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c9be5e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c9be910>]}
+
+
+============================== 00:03:45.500568 | 9b78737f-d10f-4cf8-adc2-ab65eaf539dd ==============================
+[0m00:03:45.500568 [info ] [MainThread]: Running with dbt=1.10.23
+[0m00:03:45.500804 [debug] [MainThread]: running dbt with arguments {'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'invocation_command': 'dbt run --profiles-dir .', 'empty': 'False', 'write_json': 'True', 'debug': 'False', 'log_format': 'default', 'no_print': 'None', 'static_parser': 'True', 'version_check': 'True', 'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'printer_width': '80', 'warn_error': 'None', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'use_colors': 'True', 'fail_fast': 'False', 'log_cache_events': 'False', 'quiet': 'False', 'profiles_dir': '.', 'target_path': 'None', 'cache_selected_only': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m00:03:45.500954 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m00:03:45.501083 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': '9b78737f-d10f-4cf8-adc2-ab65eaf539dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b4e2250>]}
+[0m00:03:45.591022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9b78737f-d10f-4cf8-adc2-ab65eaf539dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c8051f0>]}
+[0m00:03:45.613550 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9b78737f-d10f-4cf8-adc2-ab65eaf539dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cdb8bb0>]}
+[0m00:03:45.614059 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m00:03:45.662244 [debug] [MainThread]: checksum: 2b1352ea083ab2415ad0dbf54db2d1ac6054af1cb939f9d756e37438b9e9a7cf, vars: {}, profile: , target: , version: 1.10.23
+[0m00:03:45.744221 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 0 files added, 0 files changed.
+[0m00:03:45.744432 [debug] [MainThread]: Partial parsing: deleted file: ozon_ads_analytics://models/marts/ads_metrics_hourly.sql
+[0m00:03:45.768356 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '9b78737f-d10f-4cf8-adc2-ab65eaf539dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d94b130>]}
+[0m00:03:45.793509 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m00:03:45.794471 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m00:03:45.802643 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '9b78737f-d10f-4cf8-adc2-ab65eaf539dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d94ba00>]}
+[0m00:03:45.802828 [info ] [MainThread]: Found 3 models, 434 macros
+[0m00:03:45.802971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9b78737f-d10f-4cf8-adc2-ab65eaf539dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d903610>]}
+[0m00:03:45.803475 [info ] [MainThread]: 
+[0m00:03:45.803609 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m00:03:45.803726 [info ] [MainThread]: 
+[0m00:03:45.803917 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m00:03:45.805519 [debug] [ThreadPool]: Acquiring new postgres connection 'list_project_ads_db'
+[0m00:03:45.831413 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db"
+[0m00:03:45.831590 [debug] [ThreadPool]: On list_project_ads_db: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m00:03:45.831700 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m00:03:45.869553 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.038 seconds
+[0m00:03:45.870150 [debug] [ThreadPool]: On list_project_ads_db: Close
+[0m00:03:45.870671 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_project_ads_db, now list_project_ads_db_public)
+[0m00:03:45.873359 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m00:03:45.873517 [debug] [ThreadPool]: On list_project_ads_db_public: BEGIN
+[0m00:03:45.873635 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m00:03:45.882323 [debug] [ThreadPool]: SQL status: BEGIN in 0.009 seconds
+[0m00:03:45.882452 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m00:03:45.882572 [debug] [ThreadPool]: On list_project_ads_db_public: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db_public"} */
+select
+      'project_ads_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m00:03:45.889252 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.007 seconds
+[0m00:03:45.889769 [debug] [ThreadPool]: On list_project_ads_db_public: ROLLBACK
+[0m00:03:45.890014 [debug] [ThreadPool]: On list_project_ads_db_public: Close
+[0m00:03:45.892088 [debug] [MainThread]: Using postgres connection "master"
+[0m00:03:45.892212 [debug] [MainThread]: On master: BEGIN
+[0m00:03:45.892321 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m00:03:45.899772 [debug] [MainThread]: SQL status: BEGIN in 0.007 seconds
+[0m00:03:45.899910 [debug] [MainThread]: Using postgres connection "master"
+[0m00:03:45.900061 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m00:03:45.905115 [debug] [MainThread]: SQL status: SELECT 2 in 0.005 seconds
+[0m00:03:45.905791 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '9b78737f-d10f-4cf8-adc2-ab65eaf539dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cf0d190>]}
+[0m00:03:45.905998 [debug] [MainThread]: On master: ROLLBACK
+[0m00:03:45.906264 [debug] [MainThread]: Using postgres connection "master"
+[0m00:03:45.906387 [debug] [MainThread]: On master: BEGIN
+[0m00:03:45.906684 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m00:03:45.906811 [debug] [MainThread]: On master: COMMIT
+[0m00:03:45.906980 [debug] [MainThread]: Using postgres connection "master"
+[0m00:03:45.907120 [debug] [MainThread]: On master: COMMIT
+[0m00:03:45.907303 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m00:03:45.907429 [debug] [MainThread]: On master: Close
+[0m00:03:45.908534 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.asset_ctr_positive
+[0m00:03:45.908757 [info ] [Thread-1  ]: 1 of 3 START sql view model public.asset_ctr_positive .......................... [RUN]
+[0m00:03:45.908950 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_project_ads_db_public, now model.ozon_ads_analytics.asset_ctr_positive)
+[0m00:03:45.909099 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.asset_ctr_positive
+[0m00:03:45.912592 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m00:03:45.912867 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.asset_ctr_positive
+[0m00:03:45.927207 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m00:03:45.927618 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m00:03:45.927756 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: BEGIN
+[0m00:03:45.927878 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m00:03:45.939083 [debug] [Thread-1  ]: SQL status: BEGIN in 0.011 seconds
+[0m00:03:45.939266 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m00:03:45.939437 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+
+  create view "project_ads_db"."public"."asset_ctr_positive__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    event_id,
+    event_time,
+    user_id,
+    product_id,
+    placement,
+    device_type,
+    is_click,
+    bid_price,
+    page_load_time_ms
+FROM public.raw_ad_events
+  );
+[0m00:03:45.941647 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.002 seconds
+[0m00:03:45.944449 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m00:03:45.944604 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+alter table "project_ads_db"."public"."asset_ctr_positive" rename to "asset_ctr_positive__dbt_backup"
+[0m00:03:45.945160 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m00:03:45.946874 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m00:03:45.947101 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+alter table "project_ads_db"."public"."asset_ctr_positive__dbt_tmp" rename to "asset_ctr_positive"
+[0m00:03:45.947368 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m00:03:45.954093 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m00:03:45.954262 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m00:03:45.954398 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m00:03:45.955524 [debug] [Thread-1  ]: SQL status: COMMIT in 0.001 seconds
+[0m00:03:45.958179 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."asset_ctr_positive__dbt_backup"
+[0m00:03:45.959902 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m00:03:45.960058 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+drop view if exists "project_ads_db"."public"."asset_ctr_positive__dbt_backup" cascade
+[0m00:03:45.961879 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.002 seconds
+[0m00:03:45.962930 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: Close
+[0m00:03:45.963930 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9b78737f-d10f-4cf8-adc2-ab65eaf539dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10de709a0>]}
+[0m00:03:45.964200 [info ] [Thread-1  ]: 1 of 3 OK created sql view model public.asset_ctr_positive ..................... [[32mCREATE VIEW[0m in 0.05s]
+[0m00:03:45.964428 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.asset_ctr_positive
+[0m00:03:45.964584 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.stg_speed_metrics
+[0m00:03:45.964804 [info ] [Thread-1  ]: 2 of 3 START sql view model public.stg_speed_metrics ........................... [RUN]
+[0m00:03:45.964999 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.ozon_ads_analytics.asset_ctr_positive, now model.ozon_ads_analytics.stg_speed_metrics)
+[0m00:03:45.965149 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.stg_speed_metrics
+[0m00:03:45.966271 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m00:03:45.966702 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.stg_speed_metrics
+[0m00:03:45.968204 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m00:03:45.968443 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m00:03:45.968568 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: BEGIN
+[0m00:03:45.968684 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m00:03:45.974216 [debug] [Thread-1  ]: SQL status: BEGIN in 0.006 seconds
+[0m00:03:45.974365 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m00:03:45.974491 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+
+  create view "project_ads_db"."public"."stg_speed_metrics__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    id,
+    url,
+    ROUND(lcp_ms / 1000.0, 2) AS lcp_sec,
+    ROUND(fcp_ms / 1000.0, 2) AS fcp_sec,
+    cls,
+    ROUND(tbt_ms / 1000.0, 2) AS tbt_sec,
+    parsed_at
+FROM public.raw_speed_metrics
+  );
+[0m00:03:45.977818 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.003 seconds
+[0m00:03:45.979225 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m00:03:45.979372 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+alter table "project_ads_db"."public"."stg_speed_metrics" rename to "stg_speed_metrics__dbt_backup"
+[0m00:03:45.979857 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m00:03:45.981069 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m00:03:45.981212 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+alter table "project_ads_db"."public"."stg_speed_metrics__dbt_tmp" rename to "stg_speed_metrics"
+[0m00:03:45.981674 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m00:03:45.982277 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: COMMIT
+[0m00:03:45.982416 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m00:03:45.982543 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: COMMIT
+[0m00:03:45.983062 [debug] [Thread-1  ]: SQL status: COMMIT in 0.000 seconds
+[0m00:03:45.984520 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."stg_speed_metrics__dbt_backup"
+[0m00:03:45.984827 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m00:03:45.984968 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+drop view if exists "project_ads_db"."public"."stg_speed_metrics__dbt_backup" cascade
+[0m00:03:45.986739 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.002 seconds
+[0m00:03:45.987226 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: Close
+[0m00:03:45.987457 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9b78737f-d10f-4cf8-adc2-ab65eaf539dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b3b8d30>]}
+[0m00:03:45.987707 [info ] [Thread-1  ]: 2 of 3 OK created sql view model public.stg_speed_metrics ...................... [[32mCREATE VIEW[0m in 0.02s]
+[0m00:03:45.987922 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.stg_speed_metrics
+[0m00:03:45.988211 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.speed_metrics_daily
+[0m00:03:45.988412 [info ] [Thread-1  ]: 3 of 3 START sql table model public.speed_metrics_daily ........................ [RUN]
+[0m00:03:45.988584 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.ozon_ads_analytics.stg_speed_metrics, now model.ozon_ads_analytics.speed_metrics_daily)
+[0m00:03:45.988724 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.speed_metrics_daily
+[0m00:03:45.989976 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.speed_metrics_daily"
+[0m00:03:45.990281 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.speed_metrics_daily
+[0m00:03:45.998667 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.speed_metrics_daily"
+[0m00:03:45.998968 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m00:03:45.999097 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: BEGIN
+[0m00:03:45.999214 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m00:03:46.007287 [debug] [Thread-1  ]: SQL status: BEGIN in 0.008 seconds
+[0m00:03:46.007433 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m00:03:46.007586 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.speed_metrics_daily"} */
+
+  
+    
+
+  create  table "project_ads_db"."public"."speed_metrics_daily__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+SELECT 
+    CAST(parsed_at AS DATE) AS metric_date,
+    url,
+    ROUND(AVG(lcp_sec), 2) AS avg_lcp_sec,
+    ROUND(AVG(cls), 3) AS avg_cls,
+    ROUND(AVG(tbt_sec), 2) AS avg_tbt_sec,
+    COUNT(*) AS measurements_count
+FROM "project_ads_db"."public"."stg_speed_metrics"
+GROUP BY CAST(parsed_at AS DATE), url
+ORDER BY metric_date DESC, url
+  );
+  
+[0m00:03:46.011964 [debug] [Thread-1  ]: SQL status: SELECT 2 in 0.004 seconds
+[0m00:03:46.014936 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m00:03:46.015092 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.speed_metrics_daily"} */
+alter table "project_ads_db"."public"."speed_metrics_daily" rename to "speed_metrics_daily__dbt_backup"
+[0m00:03:46.015444 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m00:03:46.016695 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m00:03:46.016841 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.speed_metrics_daily"} */
+alter table "project_ads_db"."public"."speed_metrics_daily__dbt_tmp" rename to "speed_metrics_daily"
+[0m00:03:46.017313 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m00:03:46.017923 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: COMMIT
+[0m00:03:46.018065 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m00:03:46.018193 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: COMMIT
+[0m00:03:46.018745 [debug] [Thread-1  ]: SQL status: COMMIT in 0.000 seconds
+[0m00:03:46.019763 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."speed_metrics_daily__dbt_backup"
+[0m00:03:46.020741 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m00:03:46.020890 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.speed_metrics_daily"} */
+drop table if exists "project_ads_db"."public"."speed_metrics_daily__dbt_backup" cascade
+[0m00:03:46.022101 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.001 seconds
+[0m00:03:46.022679 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: Close
+[0m00:03:46.022967 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '9b78737f-d10f-4cf8-adc2-ab65eaf539dd', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10df36f70>]}
+[0m00:03:46.023234 [info ] [Thread-1  ]: 3 of 3 OK created sql table model public.speed_metrics_daily ................... [[32mSELECT 2[0m in 0.03s]
+[0m00:03:46.023460 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.speed_metrics_daily
+[0m00:03:46.023903 [debug] [MainThread]: Using postgres connection "master"
+[0m00:03:46.024037 [debug] [MainThread]: On master: BEGIN
+[0m00:03:46.024150 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m00:03:46.029698 [debug] [MainThread]: SQL status: BEGIN in 0.006 seconds
+[0m00:03:46.029925 [debug] [MainThread]: On master: COMMIT
+[0m00:03:46.030054 [debug] [MainThread]: Using postgres connection "master"
+[0m00:03:46.030222 [debug] [MainThread]: On master: COMMIT
+[0m00:03:46.030507 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m00:03:46.030635 [debug] [MainThread]: On master: Close
+[0m00:03:46.030853 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m00:03:46.030964 [debug] [MainThread]: Connection 'model.ozon_ads_analytics.speed_metrics_daily' was properly closed.
+[0m00:03:46.031119 [info ] [MainThread]: 
+[0m00:03:46.031253 [info ] [MainThread]: Finished running 1 table model, 2 view models in 0 hours 0 minutes and 0.23 seconds (0.23s).
+[0m00:03:46.031638 [debug] [MainThread]: Command end result
+[0m00:03:46.041014 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m00:03:46.041777 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m00:03:46.044562 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/aminivanovskij/Project1/dbt/target/run_results.json
+[0m00:03:46.044699 [info ] [MainThread]: 
+[0m00:03:46.044859 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m00:03:46.044980 [info ] [MainThread]: 
+[0m00:03:46.045116 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m00:03:46.046710 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.57913524, "process_in_blocks": "0", "process_kernel_time": 0.182054, "process_mem_max_rss": "152354816", "process_out_blocks": "0", "process_user_time": 1.390537}
+[0m00:03:46.046874 [debug] [MainThread]: Command `dbt run` succeeded at 00:03:46.046842 after 0.58 seconds
+[0m00:03:46.047022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b4e2250>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ce8ddf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d067e80>]}
+[0m00:03:46.047172 [debug] [MainThread]: Flushing usage events
+[0m00:03:46.663439 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:17:28.029096 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ad83940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c26d160>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c26d490>]}
+
+
+============================== 22:17:28.031352 | aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2 ==============================
+[0m22:17:28.031352 [info ] [MainThread]: Running with dbt=1.10.23
+[0m22:17:28.031596 [debug] [MainThread]: running dbt with arguments {'cache_selected_only': 'False', 'invocation_command': 'dbt run --profiles-dir .', 'no_print': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'version_check': 'True', 'static_parser': 'True', 'log_path': '/Users/aminivanovskij/Project1/dbt/logs', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'log_format': 'default', 'write_json': 'True', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'empty': 'False', 'printer_width': '80', 'target_path': 'None', 'quiet': 'False', 'fail_fast': 'False', 'warn_error': 'None', 'introspect': 'True', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'profiles_dir': '.'}
+[0m22:17:28.031756 [info ] [MainThread]: This version of dbt is deprecated and no longer receives regular patches, including for known bugs. We recommend upgrading to a newer supported version of dbt: https://docs.getdbt.com/docs/dbt-versions
+[0m22:17:28.031882 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'deprecated_version_invocation', 'label': 'aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ad83940>]}
+[0m22:17:28.120940 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c648af0>]}
+[0m22:17:28.142935 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bffa160>]}
+[0m22:17:28.143485 [info ] [MainThread]: Registered adapter: postgres=1.9.1
+[0m22:17:28.191426 [debug] [MainThread]: checksum: 2b1352ea083ab2415ad0dbf54db2d1ac6054af1cb939f9d756e37438b9e9a7cf, vars: {}, profile: , target: , version: 1.10.23
+[0m22:17:28.273288 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m22:17:28.273481 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m22:17:28.285186 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d172130>]}
+[0m22:17:28.310540 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m22:17:28.311512 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m22:17:28.320963 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d19c6a0>]}
+[0m22:17:28.321153 [info ] [MainThread]: Found 3 models, 434 macros
+[0m22:17:28.321296 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d183370>]}
+[0m22:17:28.321967 [info ] [MainThread]: 
+[0m22:17:28.322111 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m22:17:28.322232 [info ] [MainThread]: 
+[0m22:17:28.322413 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m22:17:28.324013 [debug] [ThreadPool]: Acquiring new postgres connection 'list_project_ads_db'
+[0m22:17:28.350797 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db"
+[0m22:17:28.350966 [debug] [ThreadPool]: On list_project_ads_db: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m22:17:28.351073 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:17:28.380553 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.029 seconds
+[0m22:17:28.381087 [debug] [ThreadPool]: On list_project_ads_db: Close
+[0m22:17:28.381596 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_project_ads_db, now list_project_ads_db_public)
+[0m22:17:28.384048 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m22:17:28.384181 [debug] [ThreadPool]: On list_project_ads_db_public: BEGIN
+[0m22:17:28.384283 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m22:17:28.392869 [debug] [ThreadPool]: SQL status: BEGIN in 0.009 seconds
+[0m22:17:28.392991 [debug] [ThreadPool]: Using postgres connection "list_project_ads_db_public"
+[0m22:17:28.393111 [debug] [ThreadPool]: On list_project_ads_db_public: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "list_project_ads_db_public"} */
+select
+      'project_ads_db' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'project_ads_db' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m22:17:28.400470 [debug] [ThreadPool]: SQL status: SELECT 47 in 0.007 seconds
+[0m22:17:28.401291 [debug] [ThreadPool]: On list_project_ads_db_public: ROLLBACK
+[0m22:17:28.401537 [debug] [ThreadPool]: On list_project_ads_db_public: Close
+[0m22:17:28.405385 [debug] [MainThread]: Using postgres connection "master"
+[0m22:17:28.405515 [debug] [MainThread]: On master: BEGIN
+[0m22:17:28.405623 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:17:28.412316 [debug] [MainThread]: SQL status: BEGIN in 0.007 seconds
+[0m22:17:28.412497 [debug] [MainThread]: Using postgres connection "master"
+[0m22:17:28.412660 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "connection_name": "master"} */
+select distinct
+        dependent_namespace.nspname as dependent_schema,
+        dependent_class.relname as dependent_name,
+        referenced_namespace.nspname as referenced_schema,
+        referenced_class.relname as referenced_name
+
+    -- Query for views: views are entries in pg_class with an entry in pg_rewrite, but we avoid
+    -- a seq scan on pg_rewrite by leveraging the fact there is an "internal" row in pg_depend for
+    -- the view...
+    from pg_class as dependent_class
+    join pg_namespace as dependent_namespace on dependent_namespace.oid = dependent_class.relnamespace
+    join pg_depend as dependent_depend on dependent_depend.refobjid = dependent_class.oid
+        and dependent_depend.classid = 'pg_rewrite'::regclass
+        and dependent_depend.refclassid = 'pg_class'::regclass
+        and dependent_depend.deptype = 'i'
+
+    -- ... and via pg_depend (that has a row per column, hence the need for "distinct" above, and
+    -- making sure to exclude the internal row to avoid a view appearing to depend on itself)...
+    join pg_depend as joining_depend on joining_depend.objid = dependent_depend.objid
+        and joining_depend.classid = 'pg_rewrite'::regclass
+        and joining_depend.refclassid = 'pg_class'::regclass
+        and joining_depend.refobjid != dependent_depend.refobjid
+
+    -- ... we can find the tables they query from in pg_class, but excluding system tables. Note we
+    -- don't need need to exclude _dependent_ system tables, because they only query from other
+    -- system tables, and so are automatically excluded by excluding _referenced_ system tables
+    join pg_class as referenced_class on referenced_class.oid = joining_depend.refobjid
+    join pg_namespace as referenced_namespace on referenced_namespace.oid = referenced_class.relnamespace
+        and referenced_namespace.nspname != 'information_schema'
+        and referenced_namespace.nspname not like 'pg\_%'
+
+    order by
+        dependent_schema, dependent_name, referenced_schema, referenced_name;
+[0m22:17:28.419246 [debug] [MainThread]: SQL status: SELECT 2 in 0.006 seconds
+[0m22:17:28.419916 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1098d0460>]}
+[0m22:17:28.420104 [debug] [MainThread]: On master: ROLLBACK
+[0m22:17:28.420317 [debug] [MainThread]: Using postgres connection "master"
+[0m22:17:28.420434 [debug] [MainThread]: On master: BEGIN
+[0m22:17:28.420693 [debug] [MainThread]: SQL status: BEGIN in 0.000 seconds
+[0m22:17:28.420812 [debug] [MainThread]: On master: COMMIT
+[0m22:17:28.420923 [debug] [MainThread]: Using postgres connection "master"
+[0m22:17:28.421029 [debug] [MainThread]: On master: COMMIT
+[0m22:17:28.421227 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m22:17:28.421343 [debug] [MainThread]: On master: Close
+[0m22:17:28.422402 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.asset_ctr_positive
+[0m22:17:28.422641 [info ] [Thread-1  ]: 1 of 3 START sql view model public.asset_ctr_positive .......................... [RUN]
+[0m22:17:28.422839 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_project_ads_db_public, now model.ozon_ads_analytics.asset_ctr_positive)
+[0m22:17:28.422987 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.asset_ctr_positive
+[0m22:17:28.426698 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m22:17:28.426984 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.asset_ctr_positive
+[0m22:17:28.441535 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.asset_ctr_positive"
+[0m22:17:28.441898 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m22:17:28.442038 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: BEGIN
+[0m22:17:28.442160 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m22:17:28.449894 [debug] [Thread-1  ]: SQL status: BEGIN in 0.008 seconds
+[0m22:17:28.450036 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m22:17:28.450164 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+
+  create view "project_ads_db"."public"."asset_ctr_positive__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    event_id,
+    event_time,
+    user_id,
+    product_id,
+    placement,
+    device_type,
+    is_click,
+    bid_price,
+    page_load_time_ms
+FROM public.raw_ad_events
+  );
+[0m22:17:28.458259 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.008 seconds
+[0m22:17:28.461142 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m22:17:28.461295 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+alter table "project_ads_db"."public"."asset_ctr_positive" rename to "asset_ctr_positive__dbt_backup"
+[0m22:17:28.461832 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m22:17:28.463228 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m22:17:28.463389 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+alter table "project_ads_db"."public"."asset_ctr_positive__dbt_tmp" rename to "asset_ctr_positive"
+[0m22:17:28.463800 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m22:17:28.470626 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m22:17:28.470810 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m22:17:28.470948 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: COMMIT
+[0m22:17:28.471600 [debug] [Thread-1  ]: SQL status: COMMIT in 0.001 seconds
+[0m22:17:28.474086 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."asset_ctr_positive__dbt_backup"
+[0m22:17:28.476159 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.asset_ctr_positive"
+[0m22:17:28.476306 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.asset_ctr_positive"} */
+drop view if exists "project_ads_db"."public"."asset_ctr_positive__dbt_backup" cascade
+[0m22:17:28.479500 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.003 seconds
+[0m22:17:28.480577 [debug] [Thread-1  ]: On model.ozon_ads_analytics.asset_ctr_positive: Close
+[0m22:17:28.481509 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5d5280>]}
+[0m22:17:28.481780 [info ] [Thread-1  ]: 1 of 3 OK created sql view model public.asset_ctr_positive ..................... [[32mCREATE VIEW[0m in 0.06s]
+[0m22:17:28.482007 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.asset_ctr_positive
+[0m22:17:28.482165 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.stg_speed_metrics
+[0m22:17:28.482397 [info ] [Thread-1  ]: 2 of 3 START sql view model public.stg_speed_metrics ........................... [RUN]
+[0m22:17:28.482606 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.ozon_ads_analytics.asset_ctr_positive, now model.ozon_ads_analytics.stg_speed_metrics)
+[0m22:17:28.482757 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.stg_speed_metrics
+[0m22:17:28.483923 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m22:17:28.484391 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.stg_speed_metrics
+[0m22:17:28.486359 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.stg_speed_metrics"
+[0m22:17:28.486622 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m22:17:28.486760 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: BEGIN
+[0m22:17:28.486888 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m22:17:28.493511 [debug] [Thread-1  ]: SQL status: BEGIN in 0.007 seconds
+[0m22:17:28.493723 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m22:17:28.493863 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+
+  create view "project_ads_db"."public"."stg_speed_metrics__dbt_tmp"
+    
+    
+  as (
+    
+
+SELECT 
+    id,
+    url,
+    ROUND(lcp_ms / 1000.0, 2) AS lcp_sec,
+    ROUND(fcp_ms / 1000.0, 2) AS fcp_sec,
+    cls,
+    ROUND(tbt_ms / 1000.0, 2) AS tbt_sec,
+    parsed_at
+FROM public.raw_speed_metrics
+  );
+[0m22:17:28.497422 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.003 seconds
+[0m22:17:28.499038 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m22:17:28.499188 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+alter table "project_ads_db"."public"."stg_speed_metrics" rename to "stg_speed_metrics__dbt_backup"
+[0m22:17:28.499587 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m22:17:28.500778 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m22:17:28.500923 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+alter table "project_ads_db"."public"."stg_speed_metrics__dbt_tmp" rename to "stg_speed_metrics"
+[0m22:17:28.501319 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m22:17:28.501954 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: COMMIT
+[0m22:17:28.502103 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m22:17:28.502235 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: COMMIT
+[0m22:17:28.502724 [debug] [Thread-1  ]: SQL status: COMMIT in 0.000 seconds
+[0m22:17:28.503776 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."stg_speed_metrics__dbt_backup"
+[0m22:17:28.504070 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.stg_speed_metrics"
+[0m22:17:28.504209 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.stg_speed_metrics"} */
+drop view if exists "project_ads_db"."public"."stg_speed_metrics__dbt_backup" cascade
+[0m22:17:28.505646 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.001 seconds
+[0m22:17:28.506120 [debug] [Thread-1  ]: On model.ozon_ads_analytics.stg_speed_metrics: Close
+[0m22:17:28.506354 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b4d9370>]}
+[0m22:17:28.506609 [info ] [Thread-1  ]: 2 of 3 OK created sql view model public.stg_speed_metrics ...................... [[32mCREATE VIEW[0m in 0.02s]
+[0m22:17:28.506826 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.stg_speed_metrics
+[0m22:17:28.507138 [debug] [Thread-1  ]: Began running node model.ozon_ads_analytics.speed_metrics_daily
+[0m22:17:28.507331 [info ] [Thread-1  ]: 3 of 3 START sql table model public.speed_metrics_daily ........................ [RUN]
+[0m22:17:28.507507 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.ozon_ads_analytics.stg_speed_metrics, now model.ozon_ads_analytics.speed_metrics_daily)
+[0m22:17:28.507647 [debug] [Thread-1  ]: Began compiling node model.ozon_ads_analytics.speed_metrics_daily
+[0m22:17:28.508901 [debug] [Thread-1  ]: Writing injected SQL for node "model.ozon_ads_analytics.speed_metrics_daily"
+[0m22:17:28.509627 [debug] [Thread-1  ]: Began executing node model.ozon_ads_analytics.speed_metrics_daily
+[0m22:17:28.519288 [debug] [Thread-1  ]: Writing runtime sql for node "model.ozon_ads_analytics.speed_metrics_daily"
+[0m22:17:28.519603 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m22:17:28.519743 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: BEGIN
+[0m22:17:28.519874 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m22:17:28.528590 [debug] [Thread-1  ]: SQL status: BEGIN in 0.009 seconds
+[0m22:17:28.528749 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m22:17:28.528897 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.speed_metrics_daily"} */
+
+  
+    
+
+  create  table "project_ads_db"."public"."speed_metrics_daily__dbt_tmp"
+  
+  
+    as
+  
+  (
+    
+
+SELECT 
+    CAST(parsed_at AS DATE) AS metric_date,
+    url,
+    ROUND(AVG(lcp_sec), 2) AS avg_lcp_sec,
+    ROUND(AVG(cls), 3) AS avg_cls,
+    ROUND(AVG(tbt_sec), 2) AS avg_tbt_sec,
+    COUNT(*) AS measurements_count
+FROM "project_ads_db"."public"."stg_speed_metrics"
+GROUP BY CAST(parsed_at AS DATE), url
+ORDER BY metric_date DESC, url
+  );
+  
+[0m22:17:28.536911 [debug] [Thread-1  ]: SQL status: SELECT 4 in 0.008 seconds
+[0m22:17:28.539922 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m22:17:28.540078 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.speed_metrics_daily"} */
+alter table "project_ads_db"."public"."speed_metrics_daily" rename to "speed_metrics_daily__dbt_backup"
+[0m22:17:28.540602 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m22:17:28.541815 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m22:17:28.541961 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.speed_metrics_daily"} */
+alter table "project_ads_db"."public"."speed_metrics_daily__dbt_tmp" rename to "speed_metrics_daily"
+[0m22:17:28.542542 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.000 seconds
+[0m22:17:28.543143 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: COMMIT
+[0m22:17:28.543288 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m22:17:28.543421 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: COMMIT
+[0m22:17:28.543936 [debug] [Thread-1  ]: SQL status: COMMIT in 0.000 seconds
+[0m22:17:28.544909 [debug] [Thread-1  ]: Applying DROP to: "project_ads_db"."public"."speed_metrics_daily__dbt_backup"
+[0m22:17:28.545917 [debug] [Thread-1  ]: Using postgres connection "model.ozon_ads_analytics.speed_metrics_daily"
+[0m22:17:28.546071 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: /* {"app": "dbt", "dbt_version": "1.10.23", "profile_name": "ozon_ads_analytics", "target_name": "dev", "node_id": "model.ozon_ads_analytics.speed_metrics_daily"} */
+drop table if exists "project_ads_db"."public"."speed_metrics_daily__dbt_backup" cascade
+[0m22:17:28.549819 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.004 seconds
+[0m22:17:28.550351 [debug] [Thread-1  ]: On model.ozon_ads_analytics.speed_metrics_daily: Close
+[0m22:17:28.550596 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'aa996f1b-c659-4e7e-bdbc-8484c7d2b2e2', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d721400>]}
+[0m22:17:28.550854 [info ] [Thread-1  ]: 3 of 3 OK created sql table model public.speed_metrics_daily ................... [[32mSELECT 4[0m in 0.04s]
+[0m22:17:28.551075 [debug] [Thread-1  ]: Finished running node model.ozon_ads_analytics.speed_metrics_daily
+[0m22:17:28.551478 [debug] [MainThread]: Using postgres connection "master"
+[0m22:17:28.551600 [debug] [MainThread]: On master: BEGIN
+[0m22:17:28.551708 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m22:17:28.560501 [debug] [MainThread]: SQL status: BEGIN in 0.009 seconds
+[0m22:17:28.560642 [debug] [MainThread]: On master: COMMIT
+[0m22:17:28.560756 [debug] [MainThread]: Using postgres connection "master"
+[0m22:17:28.560865 [debug] [MainThread]: On master: COMMIT
+[0m22:17:28.561069 [debug] [MainThread]: SQL status: COMMIT in 0.000 seconds
+[0m22:17:28.561186 [debug] [MainThread]: On master: Close
+[0m22:17:28.561335 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:17:28.561442 [debug] [MainThread]: Connection 'model.ozon_ads_analytics.speed_metrics_daily' was properly closed.
+[0m22:17:28.561588 [info ] [MainThread]: 
+[0m22:17:28.561715 [info ] [MainThread]: Finished running 1 table model, 2 view models in 0 hours 0 minutes and 0.24 seconds (0.24s).
+[0m22:17:28.562067 [debug] [MainThread]: Command end result
+[0m22:17:28.571252 [debug] [MainThread]: Wrote artifact WritableManifest to /Users/aminivanovskij/Project1/dbt/target/manifest.json
+[0m22:17:28.572030 [debug] [MainThread]: Wrote artifact SemanticManifest to /Users/aminivanovskij/Project1/dbt/target/semantic_manifest.json
+[0m22:17:28.574779 [debug] [MainThread]: Wrote artifact RunExecutionResult to /Users/aminivanovskij/Project1/dbt/target/run_results.json
+[0m22:17:28.574919 [info ] [MainThread]: 
+[0m22:17:28.575079 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m22:17:28.575200 [info ] [MainThread]: 
+[0m22:17:28.575326 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=3
+[0m22:17:28.577012 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.58517957, "process_in_blocks": "0", "process_kernel_time": 0.19603, "process_mem_max_rss": "152174592", "process_out_blocks": "0", "process_user_time": 1.397336}
+[0m22:17:28.577178 [debug] [MainThread]: Command `dbt run` succeeded at 22:17:28.577146 after 0.59 seconds
+[0m22:17:28.577325 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ad83940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d183580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d19c6d0>]}
+[0m22:17:28.577472 [debug] [MainThread]: Flushing usage events
+[0m22:17:29.680597 [debug] [MainThread]: An error was encountered while trying to flush usage events

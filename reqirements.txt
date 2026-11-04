@@ -1,0 +1,11 @@
+pandas
+numpy
+psycopg2-binary
+clickhouse-connect
+requests
+matplotlib
+faker
+pyspark
+dbt-postgres
+apache-airflow
+python-dotenv

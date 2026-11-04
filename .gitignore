@@ -1,0 +1,11 @@
+```text
+venv/
+.idea/
+.vscode/
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.local
+env.txt
+env_backup.txt

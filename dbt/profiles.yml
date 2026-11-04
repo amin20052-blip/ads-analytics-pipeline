@@ -1,0 +1,11 @@
+ozon_ads_analytics:
+  target: dev
+  outputs:
+    dev:
+      type: postgres
+      host: "{{ env_var('PG_HOST', 'localhost') }}"
+      user: "{{ env_var('PG_USER', 'postgres') }}"
+      password: "{{ env_var('PG_PASSWORD', 'admin2005') }}"
+      port: "{{ env_var('PG_PORT', '5432') | as_number }}"
+      dbname: "{{ env_var('PG_DBNAME', 'project_ads_db') }}"
+      schema: public
